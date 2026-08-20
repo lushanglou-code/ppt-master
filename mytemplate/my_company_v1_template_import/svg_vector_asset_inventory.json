@@ -1,0 +1,119 @@
+{
+  "schema": "vector_asset_inventory.v1",
+  "svg_dir": "mytemplate\\my_company_v1_template_import\\svg",
+  "icons_dir": "mytemplate\\my_company_v1_template_import\\icons",
+  "rewritten_dir": null,
+  "min_drawables": 20,
+  "min_bytes": 3000,
+  "min_decoration_bytes": 3000,
+  "extracted_count": 8,
+  "asset_count": 8,
+  "stale_removed": [],
+  "assets": [
+    {
+      "svg": "layout_02_slideLayout2.svg",
+      "id": "layered_layout_02_slideLayout2_ill01",
+      "icon": "layered_layout_02_slideLayout2_ill01",
+      "asset": "layered_layout_02_slideLayout2_ill01.svg",
+      "drawable_count": 1,
+      "byte_count": 8034,
+      "dependencies": [],
+      "elements": {
+        "path": 1
+      }
+    },
+    {
+      "svg": "layout_03_slideLayout3.svg",
+      "id": "layered_layout_03_slideLayout3_ill01",
+      "icon": "layered_layout_03_slideLayout3_ill01",
+      "asset": "layered_layout_03_slideLayout3_ill01.svg",
+      "drawable_count": 1,
+      "byte_count": 8034,
+      "dependencies": [],
+      "elements": {
+        "path": 1
+      }
+    },
+    {
+      "svg": "layout_04_slideLayout4.svg",
+      "id": "layered_layout_04_slideLayout4_ill01",
+      "icon": "layered_layout_04_slideLayout4_ill01",
+      "asset": "layered_layout_04_slideLayout4_ill01.svg",
+      "drawable_count": 1,
+      "byte_count": 8073,
+      "dependencies": [],
+      "elements": {
+        "path": 1
+      }
+    },
+    {
+      "svg": "layout_05_slideLayout5.svg",
+      "id": "layered_layout_05_slideLayout5_ill01",
+      "icon": "layered_layout_05_slideLayout5_ill01",
+      "asset": "layered_layout_05_slideLayout5_ill01.svg",
+      "drawable_count": 1,
+      "byte_count": 8073,
+      "dependencies": [],
+      "elements": {
+        "path": 1
+      }
+    },
+    {
+      "svg": "layout_06_slideLayout6.svg",
+      "id": "layered_layout_06_slideLayout6_ill01",
+      "icon": "layered_layout_06_slideLayout6_ill01",
+      "asset": "layered_layout_06_slideLayout6_ill01.svg",
+      "drawable_count": 1,
+      "byte_count": 8073,
+      "dependencies": [],
+      "elements": {
+        "path": 1
+      }
+    },
+    {
+      "svg": "layout_07_slideLayout7.svg",
+      "id": "layered_layout_07_slideLayout7_ill01",
+      "icon": "layered_layout_07_slideLayout7_ill01",
+      "asset": "layered_layout_07_slideLayout7_ill01.svg",
+      "drawable_count": 1,
+      "byte_count": 8072,
+      "dependencies": [],
+      "elements": {
+        "path": 1
+      }
+    },
+    {
+      "svg": "slide_02.svg",
+      "id": "layered_slide_02_ill01",
+      "icon": "layered_slide_02_ill01",
+      "asset": "layered_slide_02_ill01.svg",
+      "drawable_count": 6,
+      "byte_count": 7105,
+      "dependencies": [
+        "layered_slide_02_ill01_fx1",
+        "layered_slide_02_ill01_fx2",
+        "layered_slide_02_ill01_fx3",
+        "layered_slide_02_ill01_ggrad1",
+        "layered_slide_02_ill01_ggrad2",
+        "layered_slide_02_ill01_ggrad3"
+      ],
+      "elements": {
+        "ellipse": 3,
+        "path": 3
+      }
+    },
+    {
+      "svg": "slide_05.svg",
+      "id": "layered_slide_05_ill01",
+      "icon": "layered_slide_05_ill01",
+      "asset": "layered_slide_05_ill01.svg",
+      "drawable_count": 11,
+      "byte_count": 3751,
+      "dependencies": [],
+      "elements": {
+        "circle": 8,
+        "line": 3
+      }
+    }
+  ]
+}

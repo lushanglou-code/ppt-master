@@ -135,7 +135,7 @@ def find_narration_files(audio_dir: Path, svg_files: list[Path]) -> dict[str, Pa
 
 
 def probe_audio_duration(audio_path: Path) -> float | None:
-    """Return duration in seconds using ffprobe when available."""
+    """Return duration in seconds using ffprobe when available, fallback to mutagen or wave."""
     try:
         result = subprocess.run(
             [
@@ -151,9 +151,56 @@ def probe_audio_duration(audio_path: Path) -> float | None:
         )
         data = json.loads(result.stdout or "{}")
         duration = float(data.get("format", {}).get("duration", 0))
-        return duration if duration > 0 else None
+        if duration > 0:
+            return duration
     except Exception:
-        return None
+        pass
+
+    try:
+        import mutagen
+        suffix = audio_path.suffix.lower()
+        if suffix == ".mp3":
+            from mutagen.mp3 import MP3
+            audio = MP3(str(audio_path))
+            if audio is not None and getattr(audio, "info", None) is not None:
+                length = float(getattr(audio.info, "length", 0))
+                if length > 0:
+                    return length
+        elif suffix in (".m4a", ".mp4"):
+            from mutagen.mp4 import MP4
+            audio = MP4(str(audio_path))
+            if audio is not None and getattr(audio, "info", None) is not None:
+                length = float(getattr(audio.info, "length", 0))
+                if length > 0:
+                    return length
+        elif suffix == ".wav":
+            from mutagen.wave import WAVE
+            audio = WAVE(str(audio_path))
+            if audio is not None and getattr(audio, "info", None) is not None:
+                length = float(getattr(audio.info, "length", 0))
+                if length > 0:
+                    return length
+
+        audio = mutagen.File(str(audio_path))
+        if audio is not None and getattr(audio, "info", None) is not None:
+            length = float(getattr(audio.info, "length", 0))
+            if length > 0:
+                return length
+    except Exception:
+        pass
+
+    if audio_path.suffix.lower() == ".wav":
+        try:
+            import wave
+            with wave.open(str(audio_path), "rb") as wf:
+                frames = wf.getnframes()
+                rate = wf.getframerate()
+                if rate > 0:
+                    return frames / float(rate)
+        except Exception:
+            pass
+
+    return None
 
 
 def next_shape_id(slide_xml: str) -> int:

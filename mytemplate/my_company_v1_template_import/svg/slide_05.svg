@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1280" height="720" viewBox="0 0 1280 720"><use data-icon="layered_slide_05_ill01" /><g id="shape-350" data-name="图片 349">
+<image href="../assets/image12.png" x="-15.92" y="286.62" width="1302.86" height="255.12" preserveAspectRatio="none" />
+</g>
+<g id="shape-4" data-name="标题 3" data-ph-type="title">
+<rect x="70.55" y="27.67" width="1088" height="62.92" fill="none" />
+<text x="80.15" y="66.47" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="40" fill="#000000" font-weight="bold"><tspan fill="#000000" font-size="40" font-weight="bold">架构演进</tspan></text>
+</g>
+<g id="shape-247" data-name="TextBox 13">
+<rect x="122.84" y="507.61" width="198.15" height="114.53" fill="none" />
+<text x="132.44" y="524.87" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, +mn-cs, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">备机支持只读操作</tspan></text>
+<text x="132.44" y="542.47" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, +mn-cs, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">备机支持临时表读写</tspan></text>
+<text x="132.44" y="560.07" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, +mn-cs, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">同步备机可扩展至最多</tspan><tspan fill="#000000" font-size="14.67">8</tspan><tspan fill="#000000" font-size="14.67">个</tspan></text>
+<text x="132.44" y="577.67" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, +mn-cs, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">备库恢复流程可配置</tspan></text>
+<text x="132.44" y="595.27" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, +mn-cs, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">支持实时备库的异步备库</tspan></text>
+</g>
+<g id="shape-249" data-name="TextBox 109">
+<rect x="445.87" y="480.27" width="232.93" height="115.93" fill="none" />
+<text x="455.47" y="497.53" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">MPP</tspan><tspan fill="#000000" font-size="14.67">环境下支持存储过程等特</tspan><tspan x="455.47" dy="17.6" fill="#000000" font-size="14.67">性</tspan></text>
+<text x="455.47" y="532.73" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">行存储</tspan><tspan fill="#000000" font-size="14.67">+</tspan><tspan fill="#000000" font-size="14.67">列存储</tspan><tspan fill="#000000" font-size="14.67">+MPP</tspan></text>
+<text x="455.47" y="550.33" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">单机</tspan><tspan fill="#000000" font-size="14.67">SQL</tspan><tspan fill="#000000" font-size="14.67">特性全支持</tspan></text>
+<text x="455.47" y="567.93" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">单机接口全支持</tspan></text>
+<text x="455.47" y="585.53" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">应用无需特殊改造</tspan></text>
+</g>
+<g id="shape-251" data-name="TextBox 111">
+<rect x="365.85" y="342.69" width="219.52" height="93.2" fill="none" />
+<text x="375.45" y="359.95" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">支持事务的读写分离</tspan></text>
+<text x="375.45" y="377.55" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">读写分离策略可调</tspan></text>
+<text x="375.45" y="395.15" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">提升全国产平台可用性和性能</tspan></text>
+<text x="375.45" y="412.75" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">加快芯片级国产进程</tspan></text>
+</g>
+<g id="shape-253" data-name="TextBox 113">
+<rect x="717.6" y="258.93" width="168.47" height="94.67" fill="none" />
+<text x="727.2" y="276.2" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="14.67" fill="#000000" font-weight="bold"><tspan fill="#000000" font-size="14.67" font-weight="bold">• </tspan><tspan fill="#000000" font-size="14.67" font-weight="bold">“</tspan><tspan fill="#000000" font-size="14.67" font-weight="bold">真正</tspan><tspan fill="#000000" font-size="14.67" font-weight="bold">”</tspan><tspan fill="#000000" font-size="14.67">数据共享架构</tspan></text>
+<text x="727.2" y="293.8" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">DMAP</tspan><tspan fill="#000000" font-size="14.67">多中心高可用</tspan></text>
+<text x="727.2" y="311.4" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">节点负载可控可分配</tspan></text>
+<text x="727.2" y="329" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">支持</tspan><tspan fill="#000000" font-size="14.67">DataWatch</tspan></text>
+</g>
+<g id="shape-259" data-name="TextBox 109">
+<rect x="802.36" y="383.36" width="124.61" height="115.44" fill="none" />
+<text x="811.96" y="400.63" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">计算</tspan><tspan fill="#000000" font-size="14.67">-</tspan><tspan fill="#000000" font-size="14.67">存储分离</tspan></text>
+<text x="811.96" y="418.23" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">多数据副本</tspan></text>
+<text x="811.96" y="435.83" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">在线横向扩展</tspan></text>
+<text x="811.96" y="453.43" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">强事务支持</tspan></text>
+<text x="811.96" y="471.03" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">完整</tspan><tspan fill="#000000" font-size="14.67">SQL</tspan><tspan fill="#000000" font-size="14.67">支持</tspan></text>
+</g>
+<g id="shape-274" data-name="组合 273">
+<g id="shape-275" data-name="流程图: 磁盘 274">
+<rect x="44.84" y="452.05" width="47.72" height="20.22" stroke-width="4" stroke-linecap="butt" stroke="#FFFFFF" stroke-linejoin="miter" fill="none" />
+</g>
+<g id="shape-276" data-name="流程图: 磁盘 275">
+<rect x="44.84" y="438.71" width="47.72" height="20.22" stroke-width="4" stroke-linecap="butt" stroke="#FFFFFF" stroke-linejoin="miter" fill="none" />
+</g>
+<g id="shape-277" data-name="流程图: 磁盘 276">
+<rect x="44.84" y="425.78" width="47.72" height="20.22" stroke-width="4" stroke-linecap="butt" stroke="#FFFFFF" stroke-linejoin="miter" fill="none" />
+</g>
+</g>
+<g id="shape-297" data-name="直接连接符 296">
+<line x1="20.11" y1="366.19" x2="20.11" y2="504.42" stroke-width="2" stroke="#0000D2" fill="#0000D2" />
+</g>
+<g id="shape-298" data-name="Text 31">
+<rect x="34.85" y="353.4" width="106.41" height="44.11" rx="7.35" ry="7.35" fill="#0000D2" stroke="none" filter="url(#fx1)" />
+<text x="42.41" y="369.26" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="18.67" fill="#FFFFFF" font-weight="bold"><tspan fill="#FFFFFF" font-size="18.67" font-weight="bold">单机</tspan><tspan fill="#FFFFFF" font-size="18.67" font-weight="bold">SMP</tspan></text>
+</g>
+<g id="shape-300" data-name="直接连接符 299">
+<line x1="352.09" y1="272.25" x2="352.09" y2="451.86" stroke-width="2" stroke="#0000D2" fill="#0000D2" />
+</g>
+<g id="shape-301" data-name="Text 31">
+<rect x="365.85" y="288.35" width="130.44" height="44.11" rx="7.35" ry="7.35" fill="#0000D2" stroke="none" filter="url(#fx2)" />
+<text x="373.4" y="304.22" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="18.67" fill="#FFFFFF" font-weight="bold"><tspan fill="#FFFFFF" font-size="18.67" font-weight="bold">读写分离架构</tspan></text>
+</g>
+<g id="shape-303" data-name="直接连接符 302">
+<line x1="700.57" y1="198.69" x2="700.57" y2="444.42" stroke-width="2" stroke="#0000D2" fill="#0000D2" />
+</g>
+<g id="shape-304" data-name="Text 31">
+<rect x="717.6" y="212.5" width="131.03" height="44.11" rx="7.35" ry="7.35" fill="#0000D2" stroke="none" filter="url(#fx3)" />
+<text x="725.16" y="228.37" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="18.67" fill="#FFFFFF" font-weight="bold"><tspan fill="#FFFFFF" font-size="18.67" font-weight="bold">数据共享架构</tspan></text>
+</g>
+<g id="shape-307" data-name="直接连接符 306">
+<line x1="118.08" y1="520.6" x2="118.08" y2="695.2" stroke-width="2" stroke="#0000D2" fill="#0000D2" />
+</g>
+<g id="shape-308" data-name="直接连接符 307">
+<line x1="440.44" y1="464.12" x2="440.44" y2="649.65" stroke-width="2" stroke="#0000D2" fill="#0000D2" />
+</g>
+<g id="shape-310" data-name="直接连接符 309">
+<line x1="802.36" y1="367.91" x2="802.36" y2="573.52" stroke-width="2" stroke="#0000D2" fill="#0000D2" />
+</g>
+<g id="shape-311" data-name="Text 31">
+<rect x="133.11" y="644.62" width="105.59" height="44.11" rx="7.35" ry="7.35" fill="#0000D2" stroke="none" filter="url(#fx4)" />
+<text x="140.67" y="660.49" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="18.67" fill="#FFFFFF" font-weight="bold"><tspan fill="#FFFFFF" font-size="18.67" font-weight="bold">主备架构</tspan></text>
+</g>
+<g id="shape-312" data-name="Text 31">
+<rect x="454.26" y="629.03" width="141.64" height="44.11" rx="7.35" ry="7.35" fill="#0000D2" stroke="none" filter="url(#fx5)" />
+<text x="461.82" y="644.9" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="18.67" fill="#FFFFFF" font-weight="bold"><tspan fill="#FFFFFF" font-size="18.67" font-weight="bold">并行计算架构</tspan></text>
+</g>
+<g id="shape-314" data-name="TextBox 111">
+<rect x="365.85" y="252.66" width="86.77" height="29.08" fill="none" />
+<text x="365.85" y="271.06" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, +mn-cs, sans-serif" font-size="16" fill="#0000D2" font-weight="bold"><tspan fill="#0000D2" font-size="16" font-weight="bold">国产</tspan><tspan fill="#0000D2" font-size="16" font-weight="bold">CPU+</tspan></text>
+</g>
+<g id="shape-316" data-name="TextBox 111">
+<rect x="717.6" y="179.99" width="106.63" height="29.08" fill="none" />
+<text x="717.6" y="198.39" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, +mn-cs, sans-serif" font-size="16" fill="#0000D2" font-weight="bold"><tspan fill="#0000D2" font-size="16" font-weight="bold">核心业务需求</tspan></text>
+</g>
+<g id="shape-319" data-name="TextBox 111">
+<rect x="140.77" y="615.89" width="90.47" height="29.08" fill="none" />
+<text x="140.77" y="634.29" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, +mn-cs, sans-serif" font-size="16" fill="#0000D2" font-weight="bold"><tspan fill="#0000D2" font-size="16" font-weight="bold">高可用需求</tspan></text>
+</g>
+<g id="shape-320" data-name="TextBox 111">
+<rect x="454.26" y="595.05" width="122.79" height="29.08" fill="none" />
+<text x="454.26" y="613.45" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, +mn-cs, sans-serif" font-size="16" fill="#0000D2" font-weight="bold"><tspan fill="#0000D2" font-size="16" font-weight="bold">大数据分析需求</tspan></text>
+</g>
+<g id="shape-323" data-name="TextBox 111">
+<rect x="808.87" y="504.31" width="122.79" height="29.08" fill="none" />
+<text x="808.87" y="522.71" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, +mn-cs, sans-serif" font-size="16" fill="#0000D2" font-weight="bold"><tspan fill="#0000D2" font-size="16" font-weight="bold">大并发处理需求</tspan></text>
+</g>
+<g id="shape-324" data-name="Text 31">
+<rect x="808.87" y="538.88" width="171.1" height="44.11" rx="7.35" ry="7.35" fill="#0000D2" stroke="none" filter="url(#fx6)" />
+<text x="816.43" y="554.75" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="18.67" fill="#FFFFFF" font-weight="bold"><tspan fill="#FFFFFF" font-size="18.67" font-weight="bold">分布式数据库架构</tspan></text>
+</g>
+<g id="shape-3" data-name="TextBox 113">
+<rect x="1057.8" y="229.67" width="129.4" height="115.93" fill="none" />
+<text x="1067.4" y="246.94" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">RAFT</tspan><tspan fill="#000000" font-size="14.67">自治选举</tspan></text>
+<text x="1067.4" y="264.54" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">影子副本技术</tspan></text>
+<text x="1067.4" y="282.14" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">多数派日志提交</tspan></text>
+<text x="1067.4" y="299.74" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">动态增删副本</tspan></text>
+<text x="1067.4" y="317.34" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">原生两地三中心</tspan></text>
+</g>
+<g id="shape-5" data-name="直接连接符 4">
+<line x1="1046.03" y1="149.95" x2="1046.03" y2="380.62" stroke-width="2" stroke="#0000D2" fill="#0000D2" />
+</g>
+<g id="shape-6" data-name="Text 31">
+<rect x="1057.8" y="183.27" width="196" height="44.13" rx="7.36" ry="7.36" fill="#0000D2" stroke="none" filter="url(#fx7)" />
+<text x="1065.36" y="199.13" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="18.67" fill="#FFFFFF" font-weight="bold"><tspan fill="#FFFFFF" font-size="18.67" font-weight="bold">集中</tspan><tspan fill="#FFFFFF" font-size="18.67" font-weight="bold">-</tspan><tspan fill="#FFFFFF" font-size="18.67" font-weight="bold">分布式自由切换</tspan></text>
+</g>
+<g id="shape-7" data-name="TextBox 111">
+<rect x="1057.8" y="150.72" width="105.6" height="28.93" fill="none" />
+<text x="1057.8" y="169.12" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, +mn-cs, sans-serif" font-size="16" fill="#0000D2" font-weight="bold"><tspan fill="#0000D2" font-size="16" font-weight="bold">架构选型需求</tspan></text>
+</g>
+<g id="shape-12" data-name="组合 11">
+<g id="shape-114" data-name="文本框 113">
+<rect x="100.27" y="104.13" width="134.6" height="33.73" rx="16.87" ry="16.87" fill="#FFFFFF" stroke-width="0.333" stroke-linecap="butt" stroke="#EC1B34" />
+<text x="167.57" y="126.33" text-anchor="middle" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, &quot;微软雅黑&quot;, sans-serif" font-size="21.33" fill="#EC1B34" fill-opacity="0.7" font-weight="bold"><tspan fill="#EC1B34" font-size="21.33" fill-opacity="0.7" font-weight="bold">DM4~DM6</tspan></text>
+</g>
+<g id="shape-134" data-name="米菲PPT20" transform="translate(61.37 120.73) scale(-1 1) translate(-61.37 -120.73)">
+<line x1="23.8" y1="120.73" x2="98.93" y2="120.73" stroke-width="1.667" stroke="#EC1B34" stroke-opacity="0.6" stroke-dasharray="4 4" marker-end="url(#marrow1)" fill="#0000D2" />
+</g>
+<g id="shape-135" data-name="米菲PPT21">
+<line x1="233.6" y1="121" x2="303.8" y2="121" stroke-width="1.667" stroke="#EC1B34" stroke-opacity="0.6" stroke-dasharray="4 4" marker-end="url(#marrow2)" fill="#0000D2" />
+</g>
+</g>
+<g id="shape-14" data-name="组合 13">
+<g id="shape-15" data-name="文本框 14">
+<rect x="436.27" y="104.13" width="134.6" height="33.73" rx="16.87" ry="16.87" fill="#FFFFFF" stroke-width="0.333" stroke-linecap="butt" stroke="#EC1B34" />
+<text x="503.57" y="126.33" text-anchor="middle" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, &quot;微软雅黑&quot;, sans-serif" font-size="21.33" fill="#EC1B34" fill-opacity="0.7" font-weight="bold"><tspan fill="#EC1B34" font-size="21.33" fill-opacity="0.7" font-weight="bold">DM7</tspan></text>
+</g>
+<g id="shape-16" data-name="米菲PPT20" transform="translate(397.37 120.73) scale(-1 1) translate(-397.37 -120.73)">
+<line x1="359.8" y1="120.73" x2="434.93" y2="120.73" stroke-width="1.667" stroke="#EC1B34" stroke-opacity="0.6" stroke-dasharray="4 4" marker-end="url(#marrow3)" fill="#0000D2" />
+</g>
+<g id="shape-17" data-name="米菲PPT21">
+<line x1="569.6" y1="121" x2="639.8" y2="121" stroke-width="1.667" stroke="#EC1B34" stroke-opacity="0.6" stroke-dasharray="4 4" marker-end="url(#marrow4)" fill="#0000D2" />
+</g>
+</g>
+<g id="shape-18" data-name="组合 17">
+<g id="shape-19" data-name="文本框 18">
+<rect x="774.93" y="104.13" width="134.6" height="33.73" rx="16.87" ry="16.87" fill="#FFFFFF" stroke-width="0.333" stroke-linecap="butt" stroke="#EC1B34" />
+<text x="842.23" y="126.33" text-anchor="middle" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, &quot;微软雅黑&quot;, sans-serif" font-size="21.33" fill="#EC1B34" fill-opacity="0.7" font-weight="bold"><tspan fill="#EC1B34" font-size="21.33" fill-opacity="0.7" font-weight="bold">DM8</tspan></text>
+</g>
+<g id="shape-20" data-name="米菲PPT20" transform="translate(736.03 120.73) scale(-1 1) translate(-736.03 -120.73)">
+<line x1="698.47" y1="120.73" x2="773.6" y2="120.73" stroke-width="1.667" stroke="#EC1B34" stroke-opacity="0.6" stroke-dasharray="4 4" marker-end="url(#marrow5)" fill="#0000D2" />
+</g>
+<g id="shape-21" data-name="米菲PPT21">
+<line x1="908.27" y1="121" x2="978.47" y2="121" stroke-width="1.667" stroke="#EC1B34" stroke-opacity="0.6" stroke-dasharray="4 4" marker-end="url(#marrow6)" fill="#0000D2" />
+</g>
+</g>
+<g id="shape-22" data-name="组合 21">
+<g id="shape-23" data-name="文本框 22">
+<rect x="1086.45" y="104.13" width="117.32" height="33.73" rx="16.87" ry="16.87" fill="#EC1B34" stroke-width="0.333" stroke-linecap="butt" stroke="#EC1B34" />
+<text x="1145.11" y="126.33" text-anchor="middle" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, &quot;微软雅黑&quot;, sans-serif" font-size="21.33" fill="#FFFFFF" font-weight="bold"><tspan fill="#FFFFFF" font-size="21.33" font-weight="bold">DM9</tspan></text>
+</g>
+<g id="shape-24" data-name="米菲PPT20" transform="translate(1052.54 120.73) scale(-1 1) translate(-1052.54 -120.73)">
+<line x1="1019.8" y1="120.73" x2="1085.29" y2="120.73" stroke-width="1.667" stroke="#EC1B34" stroke-opacity="0.6" stroke-dasharray="4 4" marker-end="url(#marrow7)" fill="#0000D2" />
+</g>
+<g id="shape-25" data-name="米菲PPT21">
+<line x1="1202.67" y1="121" x2="1263.86" y2="121" stroke-width="1.667" stroke="#EC1B34" stroke-opacity="0.6" stroke-dasharray="4 4" marker-end="url(#marrow8)" fill="#0000D2" />
+</g>
+</g></svg>

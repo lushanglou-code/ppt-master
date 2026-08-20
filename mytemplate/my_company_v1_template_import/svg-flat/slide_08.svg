@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="720" viewBox="0 0 1280 720"><rect x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+<g id="layout-shape-2" data-name="图片 1">
+<image href="../assets/image1.png" x="0" y="0" width="1280" height="720" preserveAspectRatio="none"/>
+</g>
+<g id="layout-shape-3" data-name="图片 2">
+<image href="../assets/image2.png" x="49.99" y="41.79" width="272" height="42.88" preserveAspectRatio="none"/>
+</g>
+<g id="layout-shape-4" data-name="组合 3">
+<g id="layout-shape-5" data-name="文本框 4">
+<rect x="226.19" y="532.01" width="299.43" height="39.42" fill="none"/>
+<text x="235.79" y="554.95" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="21.33" fill="#808080"><tspan fill="#808080" font-size="21.33">武汉达梦数据库股份有限公司</tspan></text>
+</g>
+<g id="layout-shape-6" data-name="文本框 5">
+<rect x="226.19" y="584.14" width="221.85" height="40.71" fill="none"/>
+<text x="235.79" y="607.08" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="21.33" fill="#808080"><tspan fill="#808080" font-size="21.33">www.dameng.com</tspan></text>
+</g>
+<g id="layout-shape-7" data-name="文本框 6">
+<rect x="226.19" y="636.27" width="174.39" height="40.71" fill="none"/>
+<text x="235.79" y="659.21" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="21.33" fill="#808080"><tspan fill="#808080" font-size="21.33">400-991-6599</tspan></text>
+</g>
+</g>
+<g id="layout-shape-8" data-name="文本框 7">
+<rect x="49.99" y="205.27" width="407.14" height="143.47" fill="none"/>
+<text x="59.59" y="291.67" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="96" fill="#020202" font-weight="bold"><tspan fill="#020202" font-size="96" font-weight="bold">感谢聆听</tspan></text>
+</g>
+<g id="layout-shape-9" data-name="文本框 8">
+<rect x="57.98" y="348.73" width="439.45" height="54.29" fill="none"/>
+<text x="67.58" y="380.73" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="32" fill="#0000D2"><tspan fill="#0000D2" font-size="32">打造中国的世界级数据库品牌</tspan></text>
+</g>
+<g id="layout-shape-10" data-name="图片 9">
+<image href="../assets/image9.jpeg" x="58.43" y="529.98" width="149.05" height="149.05" preserveAspectRatio="none"/>
+</g></svg>

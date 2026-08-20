@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1280" height="720" viewBox="0 0 1280 720"><defs><linearGradient id="ggrad1" x1="0.5" y1="1" x2="0.5" y2="0"><stop offset="0" stop-color="#265EFA" stop-opacity="0.31" /><stop offset="1" stop-color="#0101D2" /></linearGradient><filter id="fx1" x="-25%" y="-25%" width="150%" height="150%"><feDropShadow dx="0" dy="4" stdDeviation="16.67" flood-color="#0000D2" flood-opacity="0.22" /></filter><linearGradient id="ggrad2" x1="0.5" y1="1" x2="0.5" y2="0"><stop offset="0" stop-color="#265EFA" stop-opacity="0.31" /><stop offset="1" stop-color="#0101D2" /></linearGradient><filter id="fx2" x="-25%" y="-25%" width="150%" height="150%"><feDropShadow dx="0" dy="4" stdDeviation="16.67" flood-color="#0000D2" flood-opacity="0.22" /></filter><linearGradient id="ggrad3" x1="0.5" y1="1" x2="0.5" y2="0"><stop offset="0" stop-color="#265EFA" stop-opacity="0.31" /><stop offset="1" stop-color="#0101D2" /></linearGradient><filter id="fx3" x="-25%" y="-25%" width="150%" height="150%"><feDropShadow dx="0" dy="4" stdDeviation="16.67" flood-color="#0000D2" flood-opacity="0.22" /></filter><linearGradient id="ggrad4" x1="0.5" y1="1" x2="0.5" y2="0"><stop offset="0" stop-color="#265EFA" stop-opacity="0.31" /><stop offset="1" stop-color="#0101D2" /></linearGradient><filter id="fx4" x="-25%" y="-25%" width="150%" height="150%"><feDropShadow dx="0" dy="4" stdDeviation="16.67" flood-color="#0000D2" flood-opacity="0.22" /></filter></defs><g id="shape-3" data-name="标题 2" data-ph-type="title">
+<rect x="84.8" y="29.99" width="1088" height="62.92" fill="none" />
+</g>
+<g id="shape-4" data-name="文本框 3">
+<rect x="195.83" y="199.88" width="148.64" height="48.47" fill="none" />
+<text x="205.43" y="231.88" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, Calibri, sans-serif" font-size="32" fill="#000000" font-weight="bold"><tspan fill="#000000" font-size="32" font-weight="bold">关于达梦</tspan></text>
+</g>
+<g id="shape-5" data-name="文本框 4">
+<rect x="195.83" y="322.04" width="148.64" height="48.47" fill="none" />
+<text x="205.43" y="354.04" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, Calibri, sans-serif" font-size="32" fill="#000000" font-weight="bold"><tspan fill="#000000" font-size="32" font-weight="bold">技术能力</tspan></text>
+</g>
+<g id="shape-8" data-name="文本框 7">
+<rect x="195.83" y="444.2" width="148.64" height="48.47" fill="none" />
+<text x="205.43" y="476.2" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, Calibri, sans-serif" font-size="32" fill="#000000" font-weight="bold"><tspan fill="#000000" font-size="32" font-weight="bold">解决方案</tspan></text>
+</g>
+<use data-icon="layered_slide_02_ill01" /><g id="shape-36" data-name="文本框 35">
+<rect x="195.83" y="566.36" width="148.64" height="48.47" fill="none" />
+<text x="205.43" y="598.36" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, Calibri, sans-serif" font-size="32" fill="#000000" font-weight="bold"><tspan fill="#000000" font-size="32" font-weight="bold">案例分享</tspan></text>
+</g>
+<g id="shape-37" data-name="椭圆 36">
+<ellipse cx="131.94" cy="593.83" rx="35.67" ry="35.67" fill="url(#ggrad4)" stroke="none" stroke-width="1" filter="url(#fx4)" />
+</g></svg>

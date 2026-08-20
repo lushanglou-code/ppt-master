@@ -1,0 +1,222 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="720" viewBox="0 0 1280 720"><defs><linearGradient id="ggrad1" x1="0.5" y1="1" x2="0.5" y2="0"><stop offset="0" stop-color="#FF0000" stop-opacity="0"/><stop offset="1" stop-color="#FF0000"/></linearGradient><linearGradient id="ggrad2" x1="0.5" y1="1" x2="0.5" y2="0"><stop offset="0" stop-color="#265EFA" stop-opacity="0"/><stop offset="1" stop-color="#0101D2"/></linearGradient><filter id="fx1" x="-25%" y="-25%" width="150%" height="150%"><feDropShadow dx="0" dy="6.67" stdDeviation="6.67" flood-color="#0000D2" flood-opacity="0.32"/></filter><filter id="fx2" x="-25%" y="-25%" width="150%" height="150%"><feDropShadow dx="0" dy="6.67" stdDeviation="6.67" flood-color="#0000D2" flood-opacity="0.32"/></filter><filter id="fx3" x="-25%" y="-25%" width="150%" height="150%"><feDropShadow dx="0" dy="6.67" stdDeviation="6.67" flood-color="#0000D2" flood-opacity="0.32"/></filter><filter id="fx4" x="-25%" y="-25%" width="150%" height="150%"><feDropShadow dx="0" dy="6.67" stdDeviation="6.67" flood-color="#0000D2" flood-opacity="0.32"/></filter><filter id="fx5" x="-25%" y="-25%" width="150%" height="150%"><feDropShadow dx="0" dy="6.67" stdDeviation="6.67" flood-color="#0000D2" flood-opacity="0.32"/></filter><filter id="fx6" x="-25%" y="-25%" width="150%" height="150%"><feDropShadow dx="0" dy="6.67" stdDeviation="6.67" flood-color="#0000D2" flood-opacity="0.32"/></filter><filter id="fx7" x="-25%" y="-25%" width="150%" height="150%"><feDropShadow dx="0" dy="6.67" stdDeviation="6.67" flood-color="#0000D2" flood-opacity="0.32"/></filter><marker id="marrow1" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="5" markerHeight="5" orient="auto" markerUnits="strokeWidth"><circle cx="5" cy="5" r="4" fill="#EC1B34"/></marker><marker id="marrow2" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="5" markerHeight="5" orient="auto" markerUnits="strokeWidth"><circle cx="5" cy="5" r="4" fill="#EC1B34"/></marker><marker id="marrow3" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="5" markerHeight="5" orient="auto" markerUnits="strokeWidth"><circle cx="5" cy="5" r="4" fill="#EC1B34"/></marker><marker id="marrow4" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="5" markerHeight="5" orient="auto" markerUnits="strokeWidth"><circle cx="5" cy="5" r="4" fill="#EC1B34"/></marker><marker id="marrow5" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="5" markerHeight="5" orient="auto" markerUnits="strokeWidth"><circle cx="5" cy="5" r="4" fill="#EC1B34"/></marker><marker id="marrow6" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="5" markerHeight="5" orient="auto" markerUnits="strokeWidth"><circle cx="5" cy="5" r="4" fill="#EC1B34"/></marker><marker id="marrow7" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="5" markerHeight="5" orient="auto" markerUnits="strokeWidth"><circle cx="5" cy="5" r="4" fill="#EC1B34"/></marker><marker id="marrow8" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="5" markerHeight="5" orient="auto" markerUnits="strokeWidth"><circle cx="5" cy="5" r="4" fill="#EC1B34"/></marker></defs><rect x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+<g id="layout-shape-17" data-name="图片 16">
+<image href="../assets/image8.png" x="0" y="0.54" width="1280" height="718.92" preserveAspectRatio="none"/>
+</g>
+<g id="layout-shape-4" data-name="组合 3">
+<g id="layout-shape-2" data-name="矩形 1">
+<rect x="56.14" y="32.74" width="11.67" height="42.88" fill="url(#ggrad1)" stroke="none" stroke-width="1"/>
+</g>
+<g id="layout-shape-3" data-name="矩形 2">
+<rect x="35.67" y="46.49" width="11.67" height="29.13" fill="url(#ggrad2)" stroke="none" stroke-width="1"/>
+</g>
+</g>
+<g id="layout-shape-5" data-name="文本框 4">
+<rect x="1098.29" y="676.88" width="161.74" height="30.99" fill="none"/>
+<text x="1107.89" y="695.28" text-anchor="start" xml:space="preserve" font-family="&quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="16" fill="#A6A6A6"><tspan fill="#A6A6A6" font-size="16">www.dameng.com</tspan></text>
+</g>
+<g id="layout-shape-6" data-name="文本框 5">
+<rect x="35.67" y="676.88" width="229.42" height="30.99" fill="none"/>
+<text x="45.27" y="695.28" text-anchor="start" xml:space="preserve" font-family="&quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="16" fill="#A6A6A6"><tspan fill="#A6A6A6" font-size="16">打造中国的世界级数据库品牌</tspan></text>
+</g>
+<g id="layout-shape-7" data-name="Freeform 5">
+<path d="M 1086.67 683.38 C 1080.25 683.38 1075 688.63 1075 695.04 C 1075 701.5 1080.25 706.71 1086.67 706.71 C 1093.12 706.71 1098.33 701.5 1098.33 695.04 C 1098.33 688.63 1093.12 683.38 1086.67 683.38 Z M 1089.74 705.19 C 1089.97 705 1090.17 704.73 1090.4 704.41 C 1090.48 704.34 1090.48 704.34 1090.48 704.34 C 1090.91 703.75 1091.26 703.05 1091.61 702.24 C 1091.76 701.89 1091.76 701.89 1091.76 701.89 C 1091.92 701.96 1091.92 701.96 1091.92 701.96 C 1092.58 702.28 1093.16 702.66 1093.71 703.13 C 1093.86 703.25 1093.86 703.25 1093.86 703.25 C 1093.71 703.36 1093.71 703.36 1093.71 703.36 C 1092.62 704.34 1091.29 705.04 1089.89 705.46 C 1089.31 705.66 1089.31 705.66 1089.31 705.66 C 1089.74 705.19 1089.74 705.19 1089.74 705.19 Z M 1092.19 695.59 C 1092.15 697.41 1091.88 699.16 1091.37 700.72 C 1091.33 700.91 1091.33 700.91 1091.33 700.91 C 1091.18 700.84 1091.18 700.84 1091.18 700.84 C 1089.97 700.37 1088.61 700.14 1087.21 700.06 C 1087.06 700.06 1087.06 700.06 1087.06 700.06 C 1087.06 695.43 1087.06 695.43 1087.06 695.43 C 1092.19 695.43 1092.19 695.43 1092.19 695.43 L 1092.19 695.59 Z M 1091.1 701.61 C 1091.02 701.77 1091.02 701.77 1091.02 701.77 C 1090.09 704.14 1088.77 705.62 1087.25 705.89 C 1087.06 705.93 1087.06 705.93 1087.06 705.93 C 1087.06 700.84 1087.06 700.84 1087.06 700.84 C 1087.21 700.84 1087.21 700.84 1087.21 700.84 C 1088.53 700.88 1089.82 701.11 1090.94 701.54 L 1091.1 701.61 Z M 1093.71 686.99 C 1093.16 687.42 1092.54 687.81 1091.92 688.16 C 1091.72 688.16 1091.72 688.16 1091.72 688.16 C 1091.68 688 1091.68 688 1091.68 688 C 1091.61 687.81 1091.61 687.81 1091.61 687.81 C 1091.29 687.07 1090.91 686.41 1090.44 685.75 C 1090.4 685.67 1090.4 685.67 1090.4 685.67 C 1090.21 685.4 1089.97 685.13 1089.74 684.89 C 1089.31 684.46 1089.31 684.46 1089.31 684.46 C 1089.89 684.62 1089.89 684.62 1089.89 684.62 C 1091.29 685.05 1092.62 685.79 1093.71 686.72 C 1093.86 686.84 1093.86 686.84 1093.86 686.84 C 1093.71 686.99 1093.71 686.99 1093.71 686.99 Z M 1091.18 689.29 C 1091.33 689.21 1091.33 689.21 1091.33 689.21 C 1091.37 689.36 1091.37 689.36 1091.37 689.36 C 1091.88 690.92 1092.15 692.71 1092.19 694.5 C 1092.19 694.69 1092.19 694.69 1092.19 694.69 C 1087.06 694.69 1087.06 694.69 1087.06 694.69 C 1087.06 690.03 1087.06 690.03 1087.06 690.03 C 1087.21 690.03 1087.21 690.03 1087.21 690.03 C 1088.61 689.99 1089.97 689.71 1091.18 689.29 Z M 1087.06 689.29 C 1087.06 684.15 1087.06 684.15 1087.06 684.15 C 1087.25 684.19 1087.25 684.19 1087.25 684.19 C 1088.77 684.5 1090.09 685.98 1091.02 688.35 C 1091.1 688.51 1091.1 688.51 1091.1 688.51 C 1090.94 688.55 1090.94 688.55 1090.94 688.55 C 1089.82 688.98 1088.53 689.21 1087.21 689.29 L 1087.06 689.29 Z M 1094.41 702.74 C 1094.29 702.63 1094.29 702.63 1094.29 702.63 C 1093.63 702.08 1092.93 701.61 1092.15 701.23 C 1091.99 701.19 1091.99 701.19 1091.99 701.19 C 1092.11 700.91 1092.11 700.91 1092.11 700.91 C 1092.34 700.1 1092.58 699.2 1092.69 698.31 C 1092.77 697.96 1092.77 697.96 1092.77 697.96 C 1092.81 697.61 1092.85 697.26 1092.89 696.91 C 1092.93 696.52 1092.93 696.52 1092.93 696.52 C 1092.93 696.29 1092.93 696.05 1092.93 695.82 C 1092.97 695.43 1092.97 695.43 1092.97 695.43 C 1097.56 695.43 1097.56 695.43 1097.56 695.43 C 1097.56 695.59 1097.56 695.59 1097.56 695.59 C 1097.44 698.23 1096.35 700.72 1094.52 702.63 C 1094.41 702.74 1094.41 702.74 1094.41 702.74 Z M 1092.89 693.21 C 1092.85 692.86 1092.81 692.48 1092.77 692.13 C 1092.69 691.78 1092.69 691.78 1092.69 691.78 C 1092.58 690.88 1092.38 690.03 1092.11 689.17 C 1091.99 688.94 1091.99 688.94 1091.99 688.94 C 1092.15 688.86 1092.15 688.86 1092.15 688.86 C 1092.93 688.51 1093.63 688.04 1094.29 687.46 C 1094.41 687.38 1094.41 687.38 1094.41 687.38 C 1094.52 687.46 1094.52 687.46 1094.52 687.46 C 1096.35 689.36 1097.44 691.85 1097.56 694.5 C 1097.56 694.69 1097.56 694.69 1097.56 694.69 C 1092.97 694.69 1092.97 694.69 1092.97 694.69 C 1092.93 694.26 1092.93 694.26 1092.93 694.26 C 1092.93 694.03 1092.93 693.84 1092.93 693.6 C 1092.89 693.21 1092.89 693.21 1092.89 693.21 Z M 1083.59 684.89 C 1083.36 685.13 1083.13 685.4 1082.93 685.67 C 1082.89 685.75 1082.89 685.75 1082.89 685.75 C 1082.43 686.41 1082.08 687.07 1081.77 687.81 C 1081.61 688.24 1081.61 688.24 1081.61 688.24 C 1081.46 688.16 1081.46 688.16 1081.46 688.16 C 1080.79 687.85 1080.17 687.42 1079.63 686.99 C 1079.47 686.88 1079.47 686.88 1079.47 686.88 C 1079.63 686.72 1079.63 686.72 1079.63 686.72 C 1080.76 685.79 1082.04 685.05 1083.44 684.62 C 1084.02 684.46 1084.02 684.46 1084.02 684.46 C 1083.59 684.89 1083.59 684.89 1083.59 684.89 Z M 1081.14 694.5 C 1081.18 692.71 1081.46 690.92 1081.96 689.36 C 1082 689.21 1082 689.21 1082 689.21 C 1082.16 689.25 1082.16 689.25 1082.16 689.25 C 1083.4 689.71 1084.72 689.99 1086.16 690.03 C 1086.28 690.03 1086.28 690.03 1086.28 690.03 C 1086.28 694.69 1086.28 694.69 1086.28 694.69 C 1081.14 694.69 1081.14 694.69 1081.14 694.69 L 1081.14 694.5 Z M 1082.23 688.51 C 1082.31 688.35 1082.31 688.35 1082.31 688.35 C 1083.24 685.98 1084.61 684.5 1086.12 684.19 C 1086.28 684.15 1086.28 684.15 1086.28 684.15 C 1086.28 689.29 1086.28 689.29 1086.28 689.29 C 1086.12 689.29 1086.12 689.29 1086.12 689.29 C 1084.8 689.21 1083.56 688.98 1082.39 688.55 L 1082.23 688.51 Z M 1079.63 703.13 C 1080.17 702.66 1080.79 702.28 1081.42 701.96 C 1081.65 702.04 1081.65 702.04 1081.65 702.04 C 1081.77 702.31 1081.77 702.31 1081.77 702.31 C 1082.08 703.05 1082.47 703.75 1082.89 704.34 C 1082.93 704.41 1082.93 704.41 1082.93 704.41 C 1083.01 704.53 1083.09 704.57 1083.13 704.65 C 1083.24 704.76 1083.32 704.88 1083.4 705 C 1083.48 705.08 1083.52 705.15 1083.59 705.19 C 1084.02 705.66 1084.02 705.66 1084.02 705.66 C 1083.44 705.46 1083.44 705.46 1083.44 705.46 C 1082.04 705.04 1080.76 704.34 1079.63 703.36 C 1079.47 703.25 1079.47 703.25 1079.47 703.25 C 1079.63 703.13 1079.63 703.13 1079.63 703.13 Z M 1082.16 700.84 C 1082 700.91 1082 700.91 1082 700.91 C 1081.96 700.72 1081.96 700.72 1081.96 700.72 C 1081.46 699.16 1081.18 697.41 1081.14 695.59 C 1081.14 695.43 1081.14 695.43 1081.14 695.43 C 1086.28 695.43 1086.28 695.43 1086.28 695.43 C 1086.28 700.06 1086.28 700.06 1086.28 700.06 C 1086.12 700.06 1086.12 700.06 1086.12 700.06 C 1084.72 700.14 1083.4 700.37 1082.16 700.84 Z M 1086.28 700.84 C 1086.28 705.93 1086.28 705.93 1086.28 705.93 C 1086.12 705.89 1086.12 705.89 1086.12 705.89 C 1084.61 705.62 1083.24 704.14 1082.31 701.77 C 1082.23 701.61 1082.23 701.61 1082.23 701.61 C 1082.39 701.54 1082.39 701.54 1082.39 701.54 C 1083.56 701.11 1084.8 700.88 1086.12 700.84 C 1086.28 700.84 1086.28 700.84 1086.28 700.84 Z M 1080.6 692.13 C 1080.52 692.48 1080.48 692.83 1080.48 693.25 C 1080.44 693.6 1080.44 693.6 1080.44 693.6 C 1080.41 693.84 1080.41 694.07 1080.41 694.34 C 1080.41 694.69 1080.41 694.69 1080.41 694.69 C 1075.78 694.69 1075.78 694.69 1075.78 694.69 C 1075.78 694.5 1075.78 694.5 1075.78 694.5 C 1075.93 691.85 1076.98 689.36 1078.85 687.46 C 1078.93 687.38 1078.93 687.38 1078.93 687.38 C 1079.04 687.46 1079.04 687.46 1079.04 687.46 C 1079.71 688 1080.44 688.47 1081.22 688.86 C 1081.3 689.05 1081.3 689.05 1081.3 689.05 C 1081.26 689.17 1081.26 689.17 1081.26 689.17 C 1080.99 690.03 1080.79 690.88 1080.64 691.78 L 1080.6 692.13 Z M 1080.6 697.96 C 1080.64 698.31 1080.64 698.31 1080.64 698.31 C 1080.79 699.24 1080.99 700.1 1081.26 700.91 C 1081.34 701.19 1081.34 701.19 1081.34 701.19 C 1081.22 701.23 1081.22 701.23 1081.22 701.23 C 1080.41 701.61 1079.71 702.08 1079.04 702.63 C 1078.93 702.74 1078.93 702.74 1078.93 702.74 C 1078.85 702.63 1078.85 702.63 1078.85 702.63 C 1077.02 700.72 1075.93 698.23 1075.78 695.59 C 1075.78 695.43 1075.78 695.43 1075.78 695.43 C 1080.41 695.43 1080.41 695.43 1080.41 695.43 C 1080.41 695.78 1080.41 695.78 1080.41 695.78 C 1080.41 696.01 1080.41 696.25 1080.44 696.52 C 1080.48 696.91 1080.48 696.91 1080.48 696.91 C 1080.48 697.26 1080.52 697.65 1080.6 697.96 Z" fill="#A6A6A6" stroke="none"/>
+</g>
+<g id="layout-shape-10" data-name="图片 9">
+<image href="../assets/image2.png" x="1039.2" y="37.72" width="220.83" height="34.81" preserveAspectRatio="none"/>
+</g>
+<g id="shape-351" data-name="组合 350">
+<g id="shape-333" data-name="直接连接符 332">
+<line x1="327.73" y1="55.3" x2="327.73" y2="722.53" stroke="#F0F0FF" stroke-dasharray="4 4" fill="#0000D2" stroke-width="1"/>
+</g>
+<g id="shape-336" data-name="直接连接符 335">
+<line x1="679.21" y1="55.3" x2="679.21" y2="722.53" stroke="#F0F0FF" stroke-dasharray="4 4" fill="#0000D2" stroke-width="1"/>
+</g>
+<g id="shape-2" data-name="直接连接符 1">
+<line x1="1004.27" y1="54.2" x2="1004.27" y2="721.43" stroke="#F0F0FF" stroke-dasharray="4 4" fill="#0000D2" stroke-width="1"/>
+</g>
+</g>
+<g id="shape-350" data-name="图片 349">
+<image href="../assets/image12.png" x="-15.92" y="286.62" width="1302.86" height="255.12" preserveAspectRatio="none"/>
+</g>
+<g id="shape-4" data-name="标题 3" data-ph-type="title">
+<rect x="70.55" y="27.67" width="1088" height="62.92" fill="none"/>
+<text x="80.15" y="66.47" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="40" fill="#000000" font-weight="bold"><tspan fill="#000000" font-size="40" font-weight="bold">架构演进</tspan></text>
+</g>
+<g id="shape-247" data-name="TextBox 13">
+<rect x="122.84" y="507.61" width="198.15" height="114.53" fill="none"/>
+<text x="132.44" y="524.87" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, +mn-cs, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">备机支持只读操作</tspan></text>
+<text x="132.44" y="542.47" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, +mn-cs, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">备机支持临时表读写</tspan></text>
+<text x="132.44" y="560.07" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, +mn-cs, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">同步备机可扩展至最多</tspan><tspan fill="#000000" font-size="14.67">8</tspan><tspan fill="#000000" font-size="14.67">个</tspan></text>
+<text x="132.44" y="577.67" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, +mn-cs, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">备库恢复流程可配置</tspan></text>
+<text x="132.44" y="595.27" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, +mn-cs, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">支持实时备库的异步备库</tspan></text>
+</g>
+<g id="shape-249" data-name="TextBox 109">
+<rect x="445.87" y="480.27" width="232.93" height="115.93" fill="none"/>
+<text x="455.47" y="497.53" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">MPP</tspan><tspan fill="#000000" font-size="14.67">环境下支持存储过程等特</tspan><tspan x="455.47" dy="17.6" fill="#000000" font-size="14.67">性</tspan></text>
+<text x="455.47" y="532.73" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">行存储</tspan><tspan fill="#000000" font-size="14.67">+</tspan><tspan fill="#000000" font-size="14.67">列存储</tspan><tspan fill="#000000" font-size="14.67">+MPP</tspan></text>
+<text x="455.47" y="550.33" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">单机</tspan><tspan fill="#000000" font-size="14.67">SQL</tspan><tspan fill="#000000" font-size="14.67">特性全支持</tspan></text>
+<text x="455.47" y="567.93" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">单机接口全支持</tspan></text>
+<text x="455.47" y="585.53" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">应用无需特殊改造</tspan></text>
+</g>
+<g id="shape-251" data-name="TextBox 111">
+<rect x="365.85" y="342.69" width="219.52" height="93.2" fill="none"/>
+<text x="375.45" y="359.95" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">支持事务的读写分离</tspan></text>
+<text x="375.45" y="377.55" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">读写分离策略可调</tspan></text>
+<text x="375.45" y="395.15" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">提升全国产平台可用性和性能</tspan></text>
+<text x="375.45" y="412.75" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">加快芯片级国产进程</tspan></text>
+</g>
+<g id="shape-253" data-name="TextBox 113">
+<rect x="717.6" y="258.93" width="168.47" height="94.67" fill="none"/>
+<text x="727.2" y="276.2" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="14.67" fill="#000000" font-weight="bold"><tspan fill="#000000" font-size="14.67" font-weight="bold">• </tspan><tspan fill="#000000" font-size="14.67" font-weight="bold">“</tspan><tspan fill="#000000" font-size="14.67" font-weight="bold">真正</tspan><tspan fill="#000000" font-size="14.67" font-weight="bold">”</tspan><tspan fill="#000000" font-size="14.67">数据共享架构</tspan></text>
+<text x="727.2" y="293.8" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">DMAP</tspan><tspan fill="#000000" font-size="14.67">多中心高可用</tspan></text>
+<text x="727.2" y="311.4" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">节点负载可控可分配</tspan></text>
+<text x="727.2" y="329" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">支持</tspan><tspan fill="#000000" font-size="14.67">DataWatch</tspan></text>
+</g>
+<g id="shape-259" data-name="TextBox 109">
+<rect x="802.36" y="383.36" width="124.61" height="115.44" fill="none"/>
+<text x="811.96" y="400.63" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">计算</tspan><tspan fill="#000000" font-size="14.67">-</tspan><tspan fill="#000000" font-size="14.67">存储分离</tspan></text>
+<text x="811.96" y="418.23" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">多数据副本</tspan></text>
+<text x="811.96" y="435.83" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">在线横向扩展</tspan></text>
+<text x="811.96" y="453.43" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">强事务支持</tspan></text>
+<text x="811.96" y="471.03" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">完整</tspan><tspan fill="#000000" font-size="14.67">SQL</tspan><tspan fill="#000000" font-size="14.67">支持</tspan></text>
+</g>
+<g id="shape-274" data-name="组合 273">
+<g id="shape-275" data-name="流程图: 磁盘 274">
+<rect x="44.84" y="452.05" width="47.72" height="20.22" stroke-width="4" stroke-linecap="butt" stroke="#FFFFFF" stroke-linejoin="miter" fill="none"/>
+</g>
+<g id="shape-276" data-name="流程图: 磁盘 275">
+<rect x="44.84" y="438.71" width="47.72" height="20.22" stroke-width="4" stroke-linecap="butt" stroke="#FFFFFF" stroke-linejoin="miter" fill="none"/>
+</g>
+<g id="shape-277" data-name="流程图: 磁盘 276">
+<rect x="44.84" y="425.78" width="47.72" height="20.22" stroke-width="4" stroke-linecap="butt" stroke="#FFFFFF" stroke-linejoin="miter" fill="none"/>
+</g>
+</g>
+<g id="shape-297" data-name="直接连接符 296">
+<line x1="20.11" y1="366.19" x2="20.11" y2="504.42" stroke-width="2" stroke="#0000D2" fill="#0000D2"/>
+</g>
+<g id="shape-298" data-name="Text 31">
+<rect x="34.85" y="353.4" width="106.41" height="44.11" rx="7.35" ry="7.35" fill="#0000D2" stroke="none" filter="url(#fx1)"/>
+<text x="42.41" y="369.26" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="18.67" fill="#FFFFFF" font-weight="bold"><tspan fill="#FFFFFF" font-size="18.67" font-weight="bold">单机</tspan><tspan fill="#FFFFFF" font-size="18.67" font-weight="bold">SMP</tspan></text>
+</g>
+<g id="shape-300" data-name="直接连接符 299">
+<line x1="352.09" y1="272.25" x2="352.09" y2="451.86" stroke-width="2" stroke="#0000D2" fill="#0000D2"/>
+</g>
+<g id="shape-301" data-name="Text 31">
+<rect x="365.85" y="288.35" width="130.44" height="44.11" rx="7.35" ry="7.35" fill="#0000D2" stroke="none" filter="url(#fx2)"/>
+<text x="373.4" y="304.22" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="18.67" fill="#FFFFFF" font-weight="bold"><tspan fill="#FFFFFF" font-size="18.67" font-weight="bold">读写分离架构</tspan></text>
+</g>
+<g id="shape-303" data-name="直接连接符 302">
+<line x1="700.57" y1="198.69" x2="700.57" y2="444.42" stroke-width="2" stroke="#0000D2" fill="#0000D2"/>
+</g>
+<g id="shape-304" data-name="Text 31">
+<rect x="717.6" y="212.5" width="131.03" height="44.11" rx="7.35" ry="7.35" fill="#0000D2" stroke="none" filter="url(#fx3)"/>
+<text x="725.16" y="228.37" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="18.67" fill="#FFFFFF" font-weight="bold"><tspan fill="#FFFFFF" font-size="18.67" font-weight="bold">数据共享架构</tspan></text>
+</g>
+<g id="shape-307" data-name="直接连接符 306">
+<line x1="118.08" y1="520.6" x2="118.08" y2="695.2" stroke-width="2" stroke="#0000D2" fill="#0000D2"/>
+</g>
+<g id="shape-308" data-name="直接连接符 307">
+<line x1="440.44" y1="464.12" x2="440.44" y2="649.65" stroke-width="2" stroke="#0000D2" fill="#0000D2"/>
+</g>
+<g id="shape-310" data-name="直接连接符 309">
+<line x1="802.36" y1="367.91" x2="802.36" y2="573.52" stroke-width="2" stroke="#0000D2" fill="#0000D2"/>
+</g>
+<g id="shape-311" data-name="Text 31">
+<rect x="133.11" y="644.62" width="105.59" height="44.11" rx="7.35" ry="7.35" fill="#0000D2" stroke="none" filter="url(#fx4)"/>
+<text x="140.67" y="660.49" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="18.67" fill="#FFFFFF" font-weight="bold"><tspan fill="#FFFFFF" font-size="18.67" font-weight="bold">主备架构</tspan></text>
+</g>
+<g id="shape-312" data-name="Text 31">
+<rect x="454.26" y="629.03" width="141.64" height="44.11" rx="7.35" ry="7.35" fill="#0000D2" stroke="none" filter="url(#fx5)"/>
+<text x="461.82" y="644.9" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="18.67" fill="#FFFFFF" font-weight="bold"><tspan fill="#FFFFFF" font-size="18.67" font-weight="bold">并行计算架构</tspan></text>
+</g>
+<g id="shape-314" data-name="TextBox 111">
+<rect x="365.85" y="252.66" width="86.77" height="29.08" fill="none"/>
+<text x="365.85" y="271.06" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, +mn-cs, sans-serif" font-size="16" fill="#0000D2" font-weight="bold"><tspan fill="#0000D2" font-size="16" font-weight="bold">国产</tspan><tspan fill="#0000D2" font-size="16" font-weight="bold">CPU+</tspan></text>
+</g>
+<g id="shape-316" data-name="TextBox 111">
+<rect x="717.6" y="179.99" width="106.63" height="29.08" fill="none"/>
+<text x="717.6" y="198.39" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, +mn-cs, sans-serif" font-size="16" fill="#0000D2" font-weight="bold"><tspan fill="#0000D2" font-size="16" font-weight="bold">核心业务需求</tspan></text>
+</g>
+<g id="shape-319" data-name="TextBox 111">
+<rect x="140.77" y="615.89" width="90.47" height="29.08" fill="none"/>
+<text x="140.77" y="634.29" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, +mn-cs, sans-serif" font-size="16" fill="#0000D2" font-weight="bold"><tspan fill="#0000D2" font-size="16" font-weight="bold">高可用需求</tspan></text>
+</g>
+<g id="shape-320" data-name="TextBox 111">
+<rect x="454.26" y="595.05" width="122.79" height="29.08" fill="none"/>
+<text x="454.26" y="613.45" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, +mn-cs, sans-serif" font-size="16" fill="#0000D2" font-weight="bold"><tspan fill="#0000D2" font-size="16" font-weight="bold">大数据分析需求</tspan></text>
+</g>
+<g id="shape-323" data-name="TextBox 111">
+<rect x="808.87" y="504.31" width="122.79" height="29.08" fill="none"/>
+<text x="808.87" y="522.71" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, +mn-cs, sans-serif" font-size="16" fill="#0000D2" font-weight="bold"><tspan fill="#0000D2" font-size="16" font-weight="bold">大并发处理需求</tspan></text>
+</g>
+<g id="shape-324" data-name="Text 31">
+<rect x="808.87" y="538.88" width="171.1" height="44.11" rx="7.35" ry="7.35" fill="#0000D2" stroke="none" filter="url(#fx6)"/>
+<text x="816.43" y="554.75" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="18.67" fill="#FFFFFF" font-weight="bold"><tspan fill="#FFFFFF" font-size="18.67" font-weight="bold">分布式数据库架构</tspan></text>
+</g>
+<g id="shape-3" data-name="TextBox 113">
+<rect x="1057.8" y="229.67" width="129.4" height="115.93" fill="none"/>
+<text x="1067.4" y="246.94" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">RAFT</tspan><tspan fill="#000000" font-size="14.67">自治选举</tspan></text>
+<text x="1067.4" y="264.54" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">影子副本技术</tspan></text>
+<text x="1067.4" y="282.14" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">多数派日志提交</tspan></text>
+<text x="1067.4" y="299.74" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">动态增删副本</tspan></text>
+<text x="1067.4" y="317.34" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="14.67" fill="#000000"><tspan fill="#000000" font-size="14.67">• </tspan><tspan fill="#000000" font-size="14.67">原生两地三中心</tspan></text>
+</g>
+<g id="shape-5" data-name="直接连接符 4">
+<line x1="1046.03" y1="149.95" x2="1046.03" y2="380.62" stroke-width="2" stroke="#0000D2" fill="#0000D2"/>
+</g>
+<g id="shape-6" data-name="Text 31">
+<rect x="1057.8" y="183.27" width="196" height="44.13" rx="7.36" ry="7.36" fill="#0000D2" stroke="none" filter="url(#fx7)"/>
+<text x="1065.36" y="199.13" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="18.67" fill="#FFFFFF" font-weight="bold"><tspan fill="#FFFFFF" font-size="18.67" font-weight="bold">集中</tspan><tspan fill="#FFFFFF" font-size="18.67" font-weight="bold">-</tspan><tspan fill="#FFFFFF" font-size="18.67" font-weight="bold">分布式自由切换</tspan></text>
+</g>
+<g id="shape-7" data-name="TextBox 111">
+<rect x="1057.8" y="150.72" width="105.6" height="28.93" fill="none"/>
+<text x="1057.8" y="169.12" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, +mn-cs, sans-serif" font-size="16" fill="#0000D2" font-weight="bold"><tspan fill="#0000D2" font-size="16" font-weight="bold">架构选型需求</tspan></text>
+</g>
+<g id="shape-12" data-name="组合 11">
+<g id="shape-114" data-name="文本框 113">
+<rect x="100.27" y="104.13" width="134.6" height="33.73" rx="16.87" ry="16.87" fill="#FFFFFF" stroke-width="0.333" stroke-linecap="butt" stroke="#EC1B34"/>
+<text x="167.57" y="126.33" text-anchor="middle" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, &quot;微软雅黑&quot;, sans-serif" font-size="21.33" fill="#EC1B34" fill-opacity="0.7" font-weight="bold"><tspan fill="#EC1B34" font-size="21.33" fill-opacity="0.7" font-weight="bold">DM4~DM6</tspan></text>
+</g>
+<g id="shape-134" data-name="米菲PPT20" transform="translate(61.37 120.73) scale(-1 1) translate(-61.37 -120.73)">
+<line x1="23.8" y1="120.73" x2="98.93" y2="120.73" stroke-width="1.667" stroke="#EC1B34" stroke-opacity="0.6" stroke-dasharray="4 4" marker-end="url(#marrow1)" fill="#0000D2"/>
+</g>
+<g id="shape-135" data-name="米菲PPT21">
+<line x1="233.6" y1="121" x2="303.8" y2="121" stroke-width="1.667" stroke="#EC1B34" stroke-opacity="0.6" stroke-dasharray="4 4" marker-end="url(#marrow2)" fill="#0000D2"/>
+</g>
+</g>
+<g id="shape-14" data-name="组合 13">
+<g id="shape-15" data-name="文本框 14">
+<rect x="436.27" y="104.13" width="134.6" height="33.73" rx="16.87" ry="16.87" fill="#FFFFFF" stroke-width="0.333" stroke-linecap="butt" stroke="#EC1B34"/>
+<text x="503.57" y="126.33" text-anchor="middle" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, &quot;微软雅黑&quot;, sans-serif" font-size="21.33" fill="#EC1B34" fill-opacity="0.7" font-weight="bold"><tspan fill="#EC1B34" font-size="21.33" fill-opacity="0.7" font-weight="bold">DM7</tspan></text>
+</g>
+<g id="shape-16" data-name="米菲PPT20" transform="translate(397.37 120.73) scale(-1 1) translate(-397.37 -120.73)">
+<line x1="359.8" y1="120.73" x2="434.93" y2="120.73" stroke-width="1.667" stroke="#EC1B34" stroke-opacity="0.6" stroke-dasharray="4 4" marker-end="url(#marrow3)" fill="#0000D2"/>
+</g>
+<g id="shape-17" data-name="米菲PPT21">
+<line x1="569.6" y1="121" x2="639.8" y2="121" stroke-width="1.667" stroke="#EC1B34" stroke-opacity="0.6" stroke-dasharray="4 4" marker-end="url(#marrow4)" fill="#0000D2"/>
+</g>
+</g>
+<g id="shape-18" data-name="组合 17">
+<g id="shape-19" data-name="文本框 18">
+<rect x="774.93" y="104.13" width="134.6" height="33.73" rx="16.87" ry="16.87" fill="#FFFFFF" stroke-width="0.333" stroke-linecap="butt" stroke="#EC1B34"/>
+<text x="842.23" y="126.33" text-anchor="middle" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, &quot;微软雅黑&quot;, sans-serif" font-size="21.33" fill="#EC1B34" fill-opacity="0.7" font-weight="bold"><tspan fill="#EC1B34" font-size="21.33" fill-opacity="0.7" font-weight="bold">DM8</tspan></text>
+</g>
+<g id="shape-20" data-name="米菲PPT20" transform="translate(736.03 120.73) scale(-1 1) translate(-736.03 -120.73)">
+<line x1="698.47" y1="120.73" x2="773.6" y2="120.73" stroke-width="1.667" stroke="#EC1B34" stroke-opacity="0.6" stroke-dasharray="4 4" marker-end="url(#marrow5)" fill="#0000D2"/>
+</g>
+<g id="shape-21" data-name="米菲PPT21">
+<line x1="908.27" y1="121" x2="978.47" y2="121" stroke-width="1.667" stroke="#EC1B34" stroke-opacity="0.6" stroke-dasharray="4 4" marker-end="url(#marrow6)" fill="#0000D2"/>
+</g>
+</g>
+<g id="shape-22" data-name="组合 21">
+<g id="shape-23" data-name="文本框 22">
+<rect x="1086.45" y="104.13" width="117.32" height="33.73" rx="16.87" ry="16.87" fill="#EC1B34" stroke-width="0.333" stroke-linecap="butt" stroke="#EC1B34"/>
+<text x="1145.11" y="126.33" text-anchor="middle" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, &quot;微软雅黑&quot;, sans-serif" font-size="21.33" fill="#FFFFFF" font-weight="bold"><tspan fill="#FFFFFF" font-size="21.33" font-weight="bold">DM9</tspan></text>
+</g>
+<g id="shape-24" data-name="米菲PPT20" transform="translate(1052.54 120.73) scale(-1 1) translate(-1052.54 -120.73)">
+<line x1="1019.8" y1="120.73" x2="1085.29" y2="120.73" stroke-width="1.667" stroke="#EC1B34" stroke-opacity="0.6" stroke-dasharray="4 4" marker-end="url(#marrow7)" fill="#0000D2"/>
+</g>
+<g id="shape-25" data-name="米菲PPT21">
+<line x1="1202.67" y1="121" x2="1263.86" y2="121" stroke-width="1.667" stroke="#EC1B34" stroke-opacity="0.6" stroke-dasharray="4 4" marker-end="url(#marrow8)" fill="#0000D2"/>
+</g>
+</g></svg>

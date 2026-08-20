@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="720" viewBox="0 0 1280 720"><defs><radialGradient id="ggrad1" cx="0.5" cy="0.5" r="0.5"><stop offset="1" stop-color="#0000D2"/><stop offset="0" stop-color="#418EFE"/></radialGradient></defs><g id="layout-shape-2" data-name="图片 1">
+<image href="../assets/image1.png" x="0" y="0" width="1280" height="720" preserveAspectRatio="none"/>
+</g>
+<g id="layout-shape-3" data-name="图片 2">
+<image href="../assets/image2.png" x="49.99" y="41.79" width="272" height="42.88" preserveAspectRatio="none"/>
+</g>
+<g id="layout-shape-5" data-name="文本框 4">
+<rect x="49.99" y="600.64" width="299.43" height="39.42" fill="none"/>
+<text x="59.59" y="623.57" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="21.33" fill="#808080"><tspan fill="#808080" font-size="21.33">武汉达梦数据库股份有限公司</tspan></text>
+</g>
+<g id="layout-shape-6" data-name="文本框 5">
+<rect x="372.81" y="600.64" width="167.49" height="39.42" fill="none"/>
+<text x="382.41" y="623.57" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="21.33" fill="#808080"><tspan fill="#808080" font-size="21.33">2026年7月17日</tspan></text>
+</g>
+<g id="layout-shape-7" data-name="直接连接符 6">
+<line x1="357.97" y1="608.39" x2="357.97" y2="630.98" stroke-width="1.333" stroke="#265EFA" fill="#0000D2"/>
+</g>
+<g id="layout-shape-9" data-name="矩形: 圆角 8">
+<rect x="50.05" y="459.81" width="199" height="41.28" rx="20.64" ry="20.64" fill="url(#ggrad1)" stroke-width="1.333" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+</g>
+<g id="layout-shape-11" data-name="文本框 10">
+<rect x="49.99" y="333.08" width="439.45" height="54.29" fill="none"/>
+<text x="59.59" y="365.08" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="32" fill="#0000D2"><tspan fill="#0000D2" font-size="32">打造中国的世界级数据库品牌</tspan></text>
+</g>
+<g id="layout-shape-13" data-name="标题 12" data-ph-type="title">
+<rect x="60.17" y="184.21" width="1104" height="139.17" fill="#F8FAFC" fill-opacity="0.18" stroke="#94A3B8" stroke-dasharray="6 4" stroke-width="1"/><text x="68.17" y="202.21" font-size="12" fill="#64748B">ph title</text>
+</g>
+<g id="layout-shape-15" data-name="文本占位符 14" data-ph-type="body">
+<rect x="60.17" y="464.7" width="178.43" height="32.06" fill="#F8FAFC" fill-opacity="0.18" stroke="#94A3B8" stroke-dasharray="6 4" stroke-width="1"/><text x="68.17" y="482.7" font-size="12" fill="#64748B">ph body idx=10</text>
+</g></svg>

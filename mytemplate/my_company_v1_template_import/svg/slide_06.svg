@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="720" viewBox="0 0 1280 720"><defs><filter id="fx1" x="-25%" y="-25%" width="150%" height="150%"><feDropShadow dx="6.67" dy="11.55" stdDeviation="18.67" flood-color="#000050" flood-opacity="0.18"/></filter><filter id="fx2" x="-25%" y="-25%" width="150%" height="150%"><feDropShadow dx="6" dy="10.39" stdDeviation="13.33" flood-color="#054AEA" flood-opacity="0.24"/></filter><filter id="fx3" x="-25%" y="-25%" width="150%" height="150%"><feDropShadow dx="6" dy="10.39" stdDeviation="13.33" flood-color="#054AEA" flood-opacity="0.24"/></filter><filter id="fx4" x="-25%" y="-25%" width="150%" height="150%"><feDropShadow dx="6" dy="10.39" stdDeviation="13.33" flood-color="#054AEA" flood-opacity="0.24"/></filter></defs><g id="shape-78" data-name="矩形 77">
+<rect x="823.2" y="288.39" width="455.35" height="340.26" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+</g>
+<g id="shape-43" data-name="矩形">
+<rect x="17.59" y="119.09" width="818.64" height="532.87" rx="9.69" ry="9.69" fill="#FFFFFF" stroke-width="1.333" stroke-linejoin="miter" filter="url(#fx1)"/>
+</g>
+<g id="shape-2" data-name="组合 1">
+<g id="shape-3" data-name="矩形 2">
+<rect x="35.77" y="231.22" width="788.14" height="397.42" fill="#D1DDFF" fill-opacity="0.5" stroke-width="1.333" stroke-linecap="butt" stroke="none" stroke-dasharray="3 3" stroke-linejoin="miter"/>
+</g>
+<g id="shape-4" data-name="矩形 3">
+<rect x="47.5" y="294.66" width="342.7" height="99.09" fill="#FFFFFF" stroke-width="1.333" stroke-linecap="butt" stroke="#7677F6" stroke-dasharray="3 3" stroke-linejoin="miter"/>
+</g>
+<g id="shape-5" data-name="矩形 4">
+<rect x="51.64" y="276.05" width="331.45" height="31.49" fill="#0000D2" stroke="none" stroke-width="1" filter="url(#fx2)"/>
+<text x="217.36" y="295.8" text-anchor="middle" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="16" fill="#FFFFFF" font-weight="bold"><tspan fill="#FFFFFF" font-size="16" font-weight="bold">元数据服务节点</tspan><tspan fill="#FFFFFF" font-size="16" font-weight="bold"> MetaData Processor</tspan></text>
+</g>
+<g id="shape-6" data-name="矩形 5">
+<rect x="472.77" y="293.98" width="340.98" height="99.09" fill="#FFFFFF" stroke-width="1.333" stroke-linecap="butt" stroke="#7677F6" stroke-dasharray="3 3" stroke-linejoin="miter"/>
+</g>
+<g id="shape-7" data-name="矩形 6">
+<rect x="47.5" y="435.47" width="766.3" height="181.44" fill="#FFFFFF" stroke-width="0.333" stroke-linecap="butt" stroke="#0000D2" stroke-dasharray="3 3" stroke-linejoin="miter"/>
+</g>
+<g id="shape-8" data-name="矩形 7">
+<rect x="67.77" y="417.93" width="725.65" height="31.63" fill="#0000D2" stroke="none" stroke-width="1" filter="url(#fx3)"/>
+<text x="430.52" y="437.74" text-anchor="middle" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="16" fill="#FFFFFF" font-weight="bold"><tspan fill="#FFFFFF" font-size="16" font-weight="bold">数据存储节点</tspan><tspan fill="#FFFFFF" font-size="16" font-weight="bold">  Backend Processor</tspan></text>
+</g>
+<g id="shape-9" data-name="圆角矩形 6">
+<rect x="81.32" y="331.29" width="67.8" height="34.62" rx="5.77" ry="5.77" fill="#0000D2" fill-opacity="0.1" stroke-width="1.333" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+<text x="115.22" y="354.2" text-anchor="middle" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="16" fill="#0000D2"><tspan fill="#0000D2" font-size="16">MP_A</tspan></text>
+</g>
+<g id="shape-10" data-name="矩形 9">
+<rect x="35.77" y="139.8" width="788.09" height="31.62" fill="#D1DDFF" fill-opacity="0.5" stroke-width="1.333" stroke-linecap="butt" stroke="none" stroke-dasharray="3 3" stroke-linejoin="miter"/>
+<text x="429.81" y="161.21" text-anchor="middle" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="16" fill="#000000" font-weight="bold"><tspan fill="#000000" font-size="16" font-weight="bold">应用层</tspan></text>
+</g>
+<g id="shape-11" data-name="矩形 10">
+<rect x="501.08" y="276.68" width="288.8" height="31.49" fill="#0000D2" stroke="none" stroke-width="1" filter="url(#fx4)"/>
+<text x="645.48" y="296.42" text-anchor="middle" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="16" fill="#FFFFFF" font-weight="bold"><tspan fill="#FFFFFF" font-size="16" font-weight="bold">计划生成节点</tspan><tspan fill="#FFFFFF" font-size="16" font-weight="bold"> SQL Processor</tspan></text>
+</g>
+<g id="shape-12" data-name="圆角矩形 9">
+<rect x="178.91" y="331.29" width="67.8" height="34.62" rx="5.77" ry="5.77" fill="#0000D2" fill-opacity="0.1" stroke-width="1.333" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+<text x="212.81" y="354.2" text-anchor="middle" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="16" fill="#0000D2"><tspan fill="#0000D2" font-size="16">MP_B</tspan></text>
+</g>
+<g id="shape-13" data-name="圆角矩形 10">
+<rect x="276.49" y="331.29" width="67.8" height="34.62" rx="5.77" ry="5.77" fill="#0000D2" fill-opacity="0.1" stroke-width="1.333" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+<text x="310.39" y="354.2" text-anchor="middle" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="16" fill="#0000D2"><tspan fill="#0000D2" font-size="16">MP_C</tspan></text>
+</g>
+<g id="shape-14" data-name="圆角矩形 14">
+<rect x="517.56" y="331.29" width="67.8" height="34.62" rx="5.77" ry="5.77" fill="#0000D2" fill-opacity="0.1" stroke-width="1.333" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+<text x="551.46" y="352.6" text-anchor="middle" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="16" fill="#0000D2"><tspan fill="#0000D2" font-size="16">SP1</tspan></text>
+</g>
+<g id="shape-15" data-name="圆角矩形 15">
+<rect x="615.15" y="331.29" width="67.8" height="34.62" rx="5.77" ry="5.77" fill="#FFFFFF" stroke-width="1.333" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+<text x="649.05" y="352.6" text-anchor="middle" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="16" fill="#000000"><tspan fill="#000000" font-size="16">......</tspan></text>
+</g>
+<g id="shape-16" data-name="圆角矩形 16">
+<rect x="712.73" y="331.29" width="67.8" height="34.62" rx="5.77" ry="5.77" fill="#0000D2" fill-opacity="0.1" stroke-width="1.333" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+<text x="746.63" y="352.6" text-anchor="middle" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="16" fill="#0000D2"><tspan fill="#0000D2" font-size="16">SP n</tspan></text>
+</g>
+<g id="shape-17" data-name="矩形 16">
+<rect x="35.82" y="187.93" width="788.09" height="31.62" fill="#D1DDFF" fill-opacity="0.5" stroke-width="1.333" stroke-linecap="butt" stroke="none" stroke-dasharray="3 3" stroke-linejoin="miter"/>
+<text x="429.87" y="209.34" text-anchor="middle" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="16" fill="#000000" font-weight="bold"><tspan fill="#000000" font-size="16" font-weight="bold">接口层</tspan><tspan fill="#000000" font-size="16" font-weight="bold"> JDBC</tspan><tspan fill="#000000" font-size="16" font-weight="bold">、</tspan><tspan fill="#000000" font-size="16" font-weight="bold">ODBC</tspan><tspan fill="#000000" font-size="16" font-weight="bold">、</tspan><tspan fill="#000000" font-size="16" font-weight="bold">.NET</tspan><tspan fill="#000000" font-size="16" font-weight="bold">、</tspan><tspan fill="#000000" font-size="16" font-weight="bold">PHP</tspan><tspan fill="#000000" font-size="16" font-weight="bold">、</tspan><tspan fill="#000000" font-size="16" font-weight="bold">Python</tspan><tspan fill="#000000" font-size="16" font-weight="bold">、</tspan><tspan fill="#000000" font-size="16" font-weight="bold">GO</tspan><tspan fill="#000000" font-size="16" font-weight="bold">等</tspan></text>
+</g>
+<g id="shape-18" data-name="矩形 17">
+<rect x="65.7" y="459.03" width="120.94" height="148.6" fill="none" stroke-width="0.333" stroke-linecap="butt" stroke="#0000D2" stroke-linejoin="miter"/>
+</g>
+<g id="shape-19" data-name="矩形 18">
+<rect x="216.24" y="459.03" width="120.94" height="148.6" fill="none" stroke-width="0.333" stroke-linecap="butt" stroke="#0000D2" stroke-linejoin="miter"/>
+</g>
+<g id="shape-20" data-name="矩形 19">
+<rect x="366.79" y="459.03" width="120.94" height="148.6" fill="none" stroke-width="0.333" stroke-linecap="butt" stroke="#0000D2" stroke-linejoin="miter"/>
+</g>
+<g id="shape-21" data-name="矩形 20">
+<rect x="517.34" y="459.03" width="120.94" height="148.6" fill="none" stroke-width="0.333" stroke-linecap="butt" stroke="#0000D2" stroke-linejoin="miter"/>
+</g>
+<g id="shape-22" data-name="圆角矩形 29">
+<rect x="92.27" y="469.8" width="67.8" height="34.62" rx="5.77" ry="5.77" fill="#0000D2" fill-opacity="0.15" stroke-width="1.333" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+<text x="126.17" y="492.71" text-anchor="middle" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="16" fill="#0000D2"><tspan fill="#0000D2" font-size="16">BP1_A</tspan></text>
+</g>
+<g id="shape-23" data-name="圆角矩形 30">
+<rect x="92.27" y="516.05" width="67.8" height="34.62" rx="5.77" ry="5.77" fill="#0000D2" fill-opacity="0.1" stroke-width="1.333" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+<text x="126.17" y="537.36" text-anchor="middle" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="16" fill="#000000"><tspan fill="#000000" font-size="16">BP3_B</tspan></text>
+</g>
+<g id="shape-24" data-name="圆角矩形 31">
+<rect x="92.27" y="562.3" width="67.8" height="34.62" rx="5.77" ry="5.77" fill="#0000D2" fill-opacity="0.1" stroke-width="1.333" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+<text x="126.17" y="583.61" text-anchor="middle" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="16" fill="#000000"><tspan fill="#000000" font-size="16">BP2_C</tspan></text>
+</g>
+<g id="shape-25" data-name="圆角矩形 32">
+<rect x="242.82" y="469.8" width="67.8" height="34.62" rx="5.77" ry="5.77" fill="#0000D2" fill-opacity="0.1" stroke-width="1.333" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+<text x="276.72" y="491.11" text-anchor="middle" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="16" fill="#000000"><tspan fill="#000000" font-size="16">BP2_A</tspan></text>
+</g>
+<g id="shape-26" data-name="圆角矩形 33">
+<rect x="242.82" y="516.05" width="67.8" height="34.62" rx="5.77" ry="5.77" fill="#0000D2" fill-opacity="0.15" stroke-width="1.333" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+<text x="276.72" y="537.36" text-anchor="middle" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="16" fill="#0000D2"><tspan fill="#0000D2" font-size="16">BP1_B</tspan></text>
+</g>
+<g id="shape-27" data-name="圆角矩形 34">
+<rect x="242.82" y="562.3" width="67.8" height="34.62" rx="5.77" ry="5.77" fill="#0000D2" fill-opacity="0.1" stroke-width="1.333" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+<text x="276.72" y="583.61" text-anchor="middle" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="16" fill="#000000"><tspan fill="#000000" font-size="16">BP3_C</tspan></text>
+</g>
+<g id="shape-28" data-name="圆角矩形 35">
+<rect x="393.36" y="469.8" width="67.8" height="34.62" rx="5.77" ry="5.77" fill="#0000D2" fill-opacity="0.1" stroke-width="1.333" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+<text x="427.26" y="491.11" text-anchor="middle" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="16" fill="#000000"><tspan fill="#000000" font-size="16">BP3_A</tspan></text>
+</g>
+<g id="shape-29" data-name="圆角矩形 36">
+<rect x="393.36" y="516.05" width="67.8" height="34.62" rx="5.77" ry="5.77" fill="#0000D2" fill-opacity="0.1" stroke-width="1.333" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+<text x="427.26" y="537.36" text-anchor="middle" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="16" fill="#000000"><tspan fill="#000000" font-size="16">BP2_B</tspan></text>
+</g>
+<g id="shape-30" data-name="圆角矩形 37">
+<rect x="393.36" y="562.3" width="67.8" height="34.62" rx="5.77" ry="5.77" fill="#0000D2" fill-opacity="0.15" stroke-width="1.333" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+<text x="427.26" y="583.61" text-anchor="middle" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="16" fill="#0000D2"><tspan fill="#0000D2" font-size="16">BP1_C</tspan></text>
+</g>
+<g id="shape-31" data-name="圆角矩形 38">
+<rect x="543.91" y="472.73" width="67.8" height="34.62" rx="5.77" ry="5.77" fill="#0000D2" fill-opacity="0.1" stroke-width="1.333" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+<text x="577.81" y="494.04" text-anchor="middle" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="16" fill="#000000"><tspan fill="#000000" font-size="16">......</tspan></text>
+</g>
+<g id="shape-35" data-name="圆角矩形 39">
+<rect x="543.91" y="518.98" width="67.8" height="34.62" rx="5.77" ry="5.77" fill="#0000D2" fill-opacity="0.1" stroke-width="1.333" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+<text x="577.81" y="540.29" text-anchor="middle" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="16" fill="#000000"><tspan fill="#000000" font-size="16">......</tspan></text>
+</g>
+<g id="shape-39" data-name="圆角矩形 40">
+<rect x="543.91" y="565.23" width="67.8" height="34.62" rx="5.77" ry="5.77" fill="#0000D2" fill-opacity="0.1" stroke-width="1.333" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+<text x="577.81" y="586.54" text-anchor="middle" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="16" fill="#000000"><tspan fill="#000000" font-size="16">......</tspan></text>
+</g>
+<g id="shape-42" data-name="矩形 41">
+<rect x="667.88" y="459.03" width="120.94" height="148.6" fill="none" stroke-width="0.333" stroke-linecap="butt" stroke="#0000D2" stroke-linejoin="miter"/>
+</g>
+<g id="shape-44" data-name="圆角矩形 42">
+<rect x="694.45" y="472.68" width="67.8" height="34.62" rx="5.77" ry="5.77" fill="#0000D2" fill-opacity="0.15" stroke-width="1.333" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+<text x="728.35" y="493.99" text-anchor="middle" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="16" fill="#0000D2"><tspan fill="#0000D2" font-size="16">BPn_A</tspan></text>
+</g>
+<g id="shape-49" data-name="圆角矩形 43">
+<rect x="694.45" y="518.93" width="67.8" height="34.62" rx="5.77" ry="5.77" fill="#0000D2" fill-opacity="0.15" stroke-width="1.333" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+<text x="728.35" y="540.24" text-anchor="middle" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="16" fill="#0000D2"><tspan fill="#0000D2" font-size="16">BPn_B</tspan></text>
+</g>
+<g id="shape-53" data-name="圆角矩形 44">
+<rect x="694.45" y="565.18" width="67.8" height="34.62" rx="5.77" ry="5.77" fill="#0000D2" fill-opacity="0.15" stroke-width="1.333" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+<text x="728.35" y="586.49" text-anchor="middle" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="16" fill="#0000D2"><tspan fill="#0000D2" font-size="16">BPn_C</tspan></text>
+</g>
+<g id="shape-54" data-name="上下箭头 46">
+<rect x="190.59" y="394.51" width="16.03" height="23.41" fill="#0000D2" stroke-width="1.333" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+</g>
+<g id="shape-55" data-name="上下箭头 47">
+<rect x="636.38" y="393.79" width="16.03" height="23.41" fill="#0000D2" stroke-width="1.333" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+</g>
+<g id="shape-56" data-name="左右箭头 49">
+<rect x="391.46" y="334.7" width="80.7" height="16.73" fill="#0000D2" stroke-width="1.333" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+</g>
+<g id="shape-58" data-name="上下箭头 51">
+<rect x="423.65" y="171.44" width="12.34" height="16.73" fill="#0000D2" stroke-width="1.333" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+</g>
+<g id="shape-59" data-name="矩形 58">
+<rect x="40" y="263.95" width="783.86" height="361.3" fill="none" stroke-width="2" stroke-linecap="butt" stroke="#EC1B34" stroke-dasharray="3 3" stroke-linejoin="miter"/>
+</g>
+<g id="shape-60" data-name="矩形 59">
+<rect x="366.79" y="239.43" width="120.94" height="24.52" fill="none" stroke-width="1.333" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+<text x="427.26" y="262.36" text-anchor="middle" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, Calibri, sans-serif" font-size="21.33" fill="#0000D2" font-weight="bold"><tspan fill="#0000D2" font-size="21.33" font-weight="bold">DMDPC</tspan></text>
+</g>
+<g id="shape-57" data-name="上下箭头 50">
+<rect x="629.1" y="219.9" width="14.92" height="54.78" fill="#0000D2" stroke-width="1.333" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+</g>
+</g>
+<g id="shape-61" data-name="标题 60" data-ph-type="title">
+<rect x="70.55" y="27.67" width="1088" height="62.92" fill="none"/>
+<text x="80.15" y="66.47" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="40" fill="#000000" font-weight="bold"><tspan fill="#000000" font-size="40" font-weight="bold">高性能</tspan><tspan fill="#000000" font-size="40" font-weight="bold">-</tspan><tspan fill="#000000" font-size="40" font-weight="bold">分布式集群技术突破上限</tspan></text>
+</g>
+<g id="shape-33" data-name="矩形: 圆角 30">
+<rect x="838.8" y="293.32" width="424.34" height="28.44" rx="14.22" ry="14.22" fill="none" stroke-width="1.333" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+<text x="848.4" y="312.85" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="17.33" fill="#FF0000" font-weight="bold"><tspan fill="#FF0000" font-size="17.33" font-weight="bold">数据多副本</tspan><tspan fill="#000000" font-size="17.33">，支持异地多活灾备</tspan></text>
+</g>
+<g id="shape-34" data-name="矩形: 圆角 30">
+<rect x="838.82" y="582.49" width="424.01" height="28.44" rx="14.22" ry="14.22" fill="none" stroke-width="1.333" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+<text x="848.42" y="602.02" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="17.33" fill="#000000"><tspan fill="#000000" font-size="17.33">像</tspan><tspan fill="#EC1B34" font-size="17.33" font-weight="bold">集中式</tspan><tspan fill="#000000" font-size="17.33">数据库一样使用分布式数据库</tspan></text>
+</g>
+<g id="shape-36" data-name="矩形: 圆角 30">
+<rect x="838.82" y="466.82" width="424.01" height="28.44" rx="14.22" ry="14.22" fill="none" stroke-width="1.333" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+<text x="848.42" y="486.36" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="17.33" fill="#000000"><tspan fill="#000000" font-size="17.33">SQL</tspan><tspan fill="#000000" font-size="17.33">操作符</tspan><tspan fill="#FF0000" font-size="17.33" font-weight="bold">细粒度</tspan><tspan fill="#000000" font-size="17.33">下推，</tspan><tspan fill="#FF0000" font-size="17.33" font-weight="bold">极致</tspan><tspan fill="#000000" font-size="17.33">提升数据访问效率</tspan></text>
+</g>
+<g id="shape-37" data-name="矩形: 圆角 30">
+<rect x="838.82" y="408.99" width="424.01" height="28.44" rx="14.22" ry="14.22" fill="none" stroke-width="1.333" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+<text x="848.42" y="428.52" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="17.33" fill="#000000"><tspan fill="#000000" font-size="17.33">强化分布式事务管理</tspan><tspan fill="#000000" font-size="17.33">，</tspan><tspan fill="#000000" font-size="17.33">确保分布式事务</tspan><tspan fill="#FF0000" font-size="17.33" font-weight="bold">强一致</tspan></text>
+</g>
+<g id="shape-38" data-name="矩形: 圆角 30">
+<rect x="838.82" y="351.16" width="455.32" height="28.44" rx="14.22" ry="14.22" fill="none" stroke-width="1.333" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+<text x="848.42" y="370.69" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="17.33" fill="#FF0000" font-weight="bold"><tspan fill="#FF0000" font-size="17.33" font-weight="bold">存算分离</tspan><tspan fill="#2121CF" font-size="17.33" font-weight="bold"> </tspan><tspan fill="#FF0000" font-size="17.33" font-weight="bold">独立扩展</tspan><tspan fill="#000000" font-size="17.33">，</tspan><tspan fill="#000000" font-size="17.33">避免资源捆绑</tspan><tspan fill="#000000" font-size="17.33"> </tspan><tspan fill="#000000" font-size="17.33">提高资源利用率</tspan></text>
+</g>
+<g id="shape-41" data-name="矩形: 圆角 30">
+<rect x="838.82" y="524.66" width="424.01" height="28.44" rx="14.22" ry="14.22" fill="none" stroke-width="1.333" stroke-linecap="butt" stroke="none" stroke-linejoin="miter"/>
+<text x="848.42" y="544.19" text-anchor="start" xml:space="preserve" font-family="Poppins, &quot;HarmonyOS Sans SC&quot;, sans-serif" font-size="17.33" fill="#FF0000" font-weight="bold"><tspan fill="#FF0000" font-size="17.33" font-weight="bold">多机并行</tspan><tspan fill="#000000" font-size="17.33">协同计算</tspan><tspan fill="#000000" font-size="17.33">，</tspan><tspan fill="#FF0000" font-size="17.33" font-weight="bold">全维度</tspan><tspan fill="#000000" font-size="17.33">增强</tspan><tspan fill="#000000" font-size="17.33">SQL</tspan><tspan fill="#000000" font-size="17.33">分析能力</tspan></text>
+</g></svg>

@@ -1,0 +1,735 @@
+{
+  "source": {
+    "pptx": "E:\\antig\\workspace\\pptdesign\\mytemplate\\my_company_v1.pptx",
+    "name": "my_company_v1.pptx"
+  },
+  "slideSize": {
+    "width_emu": 12192000,
+    "height_emu": 6858000,
+    "width_px": 1280,
+    "height_px": 720
+  },
+  "theme": {
+    "colors": {
+      "dk1": "#020202",
+      "lt1": "#FFFFFF",
+      "dk2": "#595959",
+      "lt2": "#F3F4F8",
+      "accent1": "#0000D2",
+      "accent2": "#E6E6FB",
+      "accent3": "#EC1B34",
+      "accent4": "#003EEE",
+      "accent5": "#4472C4",
+      "accent6": "#70AD47",
+      "hlink": "#0563C1",
+      "folHlink": "#954F72"
+    },
+    "fonts": {
+      "majorLatin": "Calibri Light",
+      "minorLatin": "Calibri"
+    }
+  },
+  "assets": {
+    "exportDir": "assets",
+    "commonAssets": [
+      "image1.png",
+      "image13.png",
+      "image2.png",
+      "image4.png",
+      "image7.png"
+    ],
+    "allAssets": [
+      "image1.png",
+      "image10.svg",
+      "image11.png",
+      "image12.png",
+      "image13.png",
+      "image2.png",
+      "image3.png",
+      "image4.png",
+      "image5.png",
+      "image6.png",
+      "image7.png",
+      "image8.png",
+      "image9.jpeg"
+    ],
+    "assetMap": {
+      "ppt/media/image1.png": "image1.png",
+      "ppt/media/image2.png": "image2.png",
+      "ppt/media/image3.png": "image3.png",
+      "ppt/media/image4.png": "image4.png",
+      "ppt/media/image5.png": "image5.png",
+      "ppt/media/image6.png": "image6.png",
+      "ppt/media/image10.svg": "image10.svg",
+      "ppt/media/image11.png": "image11.png",
+      "ppt/media/image13.png": "image13.png",
+      "ppt/media/image8.png": "image8.png",
+      "ppt/media/image9.jpeg": "image9.jpeg",
+      "ppt/media/image7.png": "image7.png",
+      "ppt/media/image12.png": "image12.png"
+    }
+  },
+  "pageTypeCandidates": {
+    "chapter_candidate": [
+      3,
+      4
+    ],
+    "content_candidate": [
+      2,
+      5,
+      6,
+      7
+    ],
+    "cover_candidate": [
+      1
+    ],
+    "ending_candidate": [
+      8
+    ]
+  },
+  "layouts": [
+    {
+      "path": "ppt/slideLayouts/slideLayout1.xml",
+      "name": "slideLayout1.xml",
+      "svgFile": "layout_01_slideLayout1.svg",
+      "parentPath": "ppt/slideMasters/slideMaster1.xml",
+      "themePath": null,
+      "theme": null,
+      "backgroundAsset": null,
+      "imageAssets": [
+        "image1.png",
+        "image2.png"
+      ],
+      "placeholders": [
+        {
+          "type": "title",
+          "idx": null,
+          "size": null,
+          "orient": null,
+          "geometry": {
+            "x": 60,
+            "y": 184,
+            "width": 1104,
+            "height": 139
+          },
+          "textSamples": [
+            "单击此处编辑母版标题样式"
+          ]
+        },
+        {
+          "type": "body",
+          "idx": "10",
+          "size": "quarter",
+          "orient": null,
+          "geometry": {
+            "x": 60,
+            "y": 465,
+            "width": 178,
+            "height": 32
+          },
+          "textSamples": [
+            "作者"
+          ]
+        }
+      ],
+      "textSamples": [
+        "武汉达梦数据库股份有限公司",
+        "2026年7月17日",
+        "打造中国的世界级数据库品牌",
+        "单击此处编辑母版标题样式",
+        "作者"
+      ],
+      "textCount": 5,
+      "shapeCount": 11,
+      "usedBySlides": [
+        1
+      ]
+    },
+    {
+      "path": "ppt/slideLayouts/slideLayout2.xml",
+      "name": "slideLayout2.xml",
+      "svgFile": "layout_02_slideLayout2.svg",
+      "parentPath": "ppt/slideMasters/slideMaster1.xml",
+      "themePath": null,
+      "theme": null,
+      "backgroundAsset": null,
+      "imageAssets": [
+        "image3.png",
+        "image2.png"
+      ],
+      "placeholders": [
+        {
+          "type": "title",
+          "idx": null,
+          "size": null,
+          "orient": null,
+          "geometry": {
+            "x": 85,
+            "y": 30,
+            "width": 1088,
+            "height": 63
+          },
+          "textSamples": [
+            "目录"
+          ],
+          "textStyle": {
+            "latinFont": "Poppins",
+            "eastAsiaFont": "HarmonyOS Sans SC"
+          }
+        }
+      ],
+      "textSamples": [
+        "CONTENT",
+        "目录",
+        "www.dameng.com",
+        "打造中国的世界级数据库品牌"
+      ],
+      "textCount": 4,
+      "shapeCount": 9,
+      "usedBySlides": [
+        2
+      ]
+    },
+    {
+      "path": "ppt/slideLayouts/slideLayout3.xml",
+      "name": "slideLayout3.xml",
+      "svgFile": "layout_03_slideLayout3.svg",
+      "parentPath": "ppt/slideMasters/slideMaster1.xml",
+      "themePath": null,
+      "theme": null,
+      "backgroundAsset": null,
+      "imageAssets": [
+        "image4.png",
+        "image5.png"
+      ],
+      "placeholders": [
+        {
+          "type": "title",
+          "idx": null,
+          "size": null,
+          "orient": null,
+          "geometry": {
+            "x": 125,
+            "y": 295,
+            "width": 160,
+            "height": 129
+          },
+          "textSamples": [
+            "01"
+          ]
+        },
+        {
+          "type": "body",
+          "idx": "10",
+          "size": "quarter",
+          "orient": null,
+          "geometry": {
+            "x": 313,
+            "y": 295,
+            "width": 695,
+            "height": 129
+          },
+          "textSamples": [
+            "编辑母版文本样式"
+          ]
+        }
+      ],
+      "textSamples": [
+        "01",
+        "编辑母版文本样式",
+        "www.dameng.com",
+        "打造中国的世界级数据库品牌"
+      ],
+      "textCount": 4,
+      "shapeCount": 10,
+      "usedBySlides": [
+        3
+      ]
+    },
+    {
+      "path": "ppt/slideLayouts/slideLayout4.xml",
+      "name": "slideLayout4.xml",
+      "svgFile": "layout_04_slideLayout4.svg",
+      "parentPath": "ppt/slideMasters/slideMaster1.xml",
+      "themePath": null,
+      "theme": null,
+      "backgroundAsset": null,
+      "imageAssets": [
+        "image4.png",
+        "image2.png"
+      ],
+      "placeholders": [
+        {
+          "type": "title",
+          "idx": null,
+          "size": null,
+          "orient": null,
+          "geometry": {
+            "x": 71,
+            "y": 28,
+            "width": 1088,
+            "height": 63
+          },
+          "textSamples": [
+            "单击此处编辑母版标题样式"
+          ]
+        }
+      ],
+      "textSamples": [
+        "单击此处编辑母版标题样式",
+        "www.dameng.com",
+        "打造中国的世界级数据库品牌"
+      ],
+      "textCount": 3,
+      "shapeCount": 14,
+      "usedBySlides": [
+        4
+      ]
+    },
+    {
+      "path": "ppt/slideLayouts/slideLayout5.xml",
+      "name": "slideLayout5.xml",
+      "svgFile": "layout_05_slideLayout5.svg",
+      "parentPath": "ppt/slideMasters/slideMaster1.xml",
+      "themePath": null,
+      "theme": null,
+      "backgroundAsset": null,
+      "imageAssets": [
+        "image6.png",
+        "image7.png",
+        "image2.png"
+      ],
+      "placeholders": [
+        {
+          "type": "title",
+          "idx": null,
+          "size": null,
+          "orient": null,
+          "geometry": {
+            "x": 71,
+            "y": 28,
+            "width": 1088,
+            "height": 63
+          },
+          "textSamples": [
+            "单击此处编辑母版标题样式"
+          ]
+        }
+      ],
+      "textSamples": [
+        "单击此处编辑母版标题样式",
+        "www.dameng.com",
+        "打造中国的世界级数据库品牌"
+      ],
+      "textCount": 3,
+      "shapeCount": 16,
+      "usedBySlides": [
+        6
+      ]
+    },
+    {
+      "path": "ppt/slideLayouts/slideLayout6.xml",
+      "name": "slideLayout6.xml",
+      "svgFile": "layout_06_slideLayout6.svg",
+      "parentPath": "ppt/slideMasters/slideMaster1.xml",
+      "themePath": null,
+      "theme": null,
+      "backgroundAsset": null,
+      "imageAssets": [
+        "image4.png",
+        "image7.png",
+        "image2.png"
+      ],
+      "placeholders": [
+        {
+          "type": "title",
+          "idx": null,
+          "size": null,
+          "orient": null,
+          "geometry": {
+            "x": 71,
+            "y": 28,
+            "width": 1088,
+            "height": 63
+          },
+          "textSamples": [
+            "单击此处编辑母版标题样式"
+          ]
+        }
+      ],
+      "textSamples": [
+        "单击此处编辑母版标题样式",
+        "www.dameng.com",
+        "打造中国的世界级数据库品牌"
+      ],
+      "textCount": 3,
+      "shapeCount": 16,
+      "usedBySlides": [
+        7
+      ]
+    },
+    {
+      "path": "ppt/slideLayouts/slideLayout7.xml",
+      "name": "slideLayout7.xml",
+      "svgFile": "layout_07_slideLayout7.svg",
+      "parentPath": "ppt/slideMasters/slideMaster1.xml",
+      "themePath": null,
+      "theme": null,
+      "backgroundAsset": null,
+      "imageAssets": [
+        "image8.png",
+        "image2.png"
+      ],
+      "placeholders": [
+        {
+          "type": "title",
+          "idx": null,
+          "size": null,
+          "orient": null,
+          "geometry": {
+            "x": 71,
+            "y": 28,
+            "width": 1088,
+            "height": 63
+          },
+          "textSamples": [
+            "单击此处编辑母版标题样式"
+          ]
+        }
+      ],
+      "textSamples": [
+        "单击此处编辑母版标题样式",
+        "www.dameng.com",
+        "打造中国的世界级数据库品牌"
+      ],
+      "textCount": 3,
+      "shapeCount": 9,
+      "usedBySlides": [
+        5
+      ]
+    },
+    {
+      "path": "ppt/slideLayouts/slideLayout8.xml",
+      "name": "slideLayout8.xml",
+      "svgFile": "layout_08_slideLayout8.svg",
+      "parentPath": "ppt/slideMasters/slideMaster1.xml",
+      "themePath": null,
+      "theme": null,
+      "backgroundAsset": null,
+      "imageAssets": [
+        "image1.png",
+        "image2.png",
+        "image9.jpeg"
+      ],
+      "placeholders": [],
+      "textSamples": [
+        "武汉达梦数据库股份有限公司",
+        "www.dameng.com",
+        "400-991-6599",
+        "感谢聆听",
+        "打造中国的世界级数据库品牌"
+      ],
+      "textCount": 5,
+      "shapeCount": 8,
+      "usedBySlides": [
+        8
+      ]
+    }
+  ],
+  "masters": [
+    {
+      "path": "ppt/slideMasters/slideMaster1.xml",
+      "name": "slideMaster1.xml",
+      "svgFile": "master_01_slideMaster1.svg",
+      "parentPath": null,
+      "themePath": "ppt/theme/theme1.xml",
+      "theme": {
+        "colors": {
+          "dk1": "#020202",
+          "lt1": "#FFFFFF",
+          "dk2": "#595959",
+          "lt2": "#F3F4F8",
+          "accent1": "#0000D2",
+          "accent2": "#E6E6FB",
+          "accent3": "#EC1B34",
+          "accent4": "#003EEE",
+          "accent5": "#4472C4",
+          "accent6": "#70AD47",
+          "hlink": "#0563C1",
+          "folHlink": "#954F72"
+        },
+        "fonts": {
+          "majorLatin": "Calibri Light",
+          "minorLatin": "Calibri"
+        }
+      },
+      "backgroundAsset": null,
+      "imageAssets": [],
+      "placeholders": [
+        {
+          "type": "title",
+          "idx": null,
+          "size": null,
+          "orient": null,
+          "geometry": {
+            "x": 88,
+            "y": 38,
+            "width": 1104,
+            "height": 139
+          },
+          "textSamples": [
+            "单击此处编辑母版标题样式"
+          ]
+        },
+        {
+          "type": "body",
+          "idx": "1",
+          "size": null,
+          "orient": null,
+          "geometry": {
+            "x": 88,
+            "y": 192,
+            "width": 1104,
+            "height": 457
+          },
+          "textSamples": [
+            "单击此处编辑母版文本样式",
+            "二级"
+          ]
+        },
+        {
+          "type": "dt",
+          "idx": "2",
+          "size": "half",
+          "orient": null,
+          "geometry": {
+            "x": 88,
+            "y": 667,
+            "width": 288,
+            "height": 38
+          },
+          "textSamples": [
+            "7/17/2026"
+          ]
+        },
+        {
+          "type": "ftr",
+          "idx": "3",
+          "size": "quarter",
+          "orient": null,
+          "geometry": {
+            "x": 424,
+            "y": 667,
+            "width": 432,
+            "height": 38
+          },
+          "textSamples": []
+        },
+        {
+          "type": "sldNum",
+          "idx": "4",
+          "size": "quarter",
+          "orient": null,
+          "geometry": {
+            "x": 904,
+            "y": 667,
+            "width": 288,
+            "height": 38
+          },
+          "textSamples": [
+            "‹#›"
+          ]
+        }
+      ],
+      "textSamples": [
+        "单击此处编辑母版标题样式",
+        "单击此处编辑母版文本样式",
+        "二级",
+        "三级",
+        "四级",
+        "五级"
+      ],
+      "textCount": 8,
+      "shapeCount": 7,
+      "usedBySlides": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "name": "slide1.xml",
+      "svgFile": "slide_01.svg",
+      "flatSvgFile": "slide_01.svg",
+      "slidePath": "ppt/slides/slide1.xml",
+      "layoutPath": "ppt/slideLayouts/slideLayout1.xml",
+      "masterPath": "ppt/slideMasters/slideMaster1.xml",
+      "backgroundAsset": null,
+      "backgroundSource": null,
+      "imageAssets": [],
+      "textSamples": [],
+      "textCount": 0,
+      "shapeCount": 4,
+      "pageType": "cover_candidate"
+    },
+    {
+      "index": 2,
+      "name": "slide2.xml",
+      "svgFile": "slide_02.svg",
+      "flatSvgFile": "slide_02.svg",
+      "slidePath": "ppt/slides/slide2.xml",
+      "layoutPath": "ppt/slideLayouts/slideLayout2.xml",
+      "masterPath": "ppt/slideMasters/slideMaster1.xml",
+      "backgroundAsset": null,
+      "backgroundSource": null,
+      "imageAssets": [],
+      "textSamples": [
+        "关于达梦",
+        "技术能力",
+        "解决方案",
+        "案例分享"
+      ],
+      "textCount": 4,
+      "shapeCount": 12,
+      "pageType": "content_candidate"
+    },
+    {
+      "index": 3,
+      "name": "slide3.xml",
+      "svgFile": "slide_03.svg",
+      "flatSvgFile": "slide_03.svg",
+      "slidePath": "ppt/slides/slide3.xml",
+      "layoutPath": "ppt/slideLayouts/slideLayout3.xml",
+      "masterPath": "ppt/slideMasters/slideMaster1.xml",
+      "backgroundAsset": null,
+      "backgroundSource": null,
+      "imageAssets": [],
+      "textSamples": [
+        "01",
+        "关于达梦"
+      ],
+      "textCount": 2,
+      "shapeCount": 4,
+      "pageType": "chapter_candidate"
+    },
+    {
+      "index": 4,
+      "name": "slide4.xml",
+      "svgFile": "slide_04.svg",
+      "flatSvgFile": "slide_04.svg",
+      "slidePath": "ppt/slides/slide4.xml",
+      "layoutPath": "ppt/slideLayouts/slideLayout4.xml",
+      "masterPath": "ppt/slideMasters/slideMaster1.xml",
+      "backgroundAsset": null,
+      "backgroundSource": null,
+      "imageAssets": [
+        "image11.png"
+      ],
+      "textSamples": [
+        "服务体系"
+      ],
+      "textCount": 1,
+      "shapeCount": 4,
+      "pageType": "chapter_candidate"
+    },
+    {
+      "index": 5,
+      "name": "slide5.xml",
+      "svgFile": "slide_05.svg",
+      "flatSvgFile": "slide_05.svg",
+      "slidePath": "ppt/slides/slide5.xml",
+      "layoutPath": "ppt/slideLayouts/slideLayout7.xml",
+      "masterPath": "ppt/slideMasters/slideMaster1.xml",
+      "backgroundAsset": null,
+      "backgroundSource": null,
+      "imageAssets": [
+        "image12.png"
+      ],
+      "textSamples": [
+        "架构演进",
+        "备机支持只读操作",
+        "备机支持临时表读写",
+        "同步备机可扩展至最多",
+        "8",
+        "个"
+      ],
+      "textCount": 6,
+      "shapeCount": 36,
+      "pageType": "content_candidate"
+    },
+    {
+      "index": 6,
+      "name": "slide6.xml",
+      "svgFile": "slide_06.svg",
+      "flatSvgFile": "slide_06.svg",
+      "slidePath": "ppt/slides/slide6.xml",
+      "layoutPath": "ppt/slideLayouts/slideLayout5.xml",
+      "masterPath": "ppt/slideMasters/slideMaster1.xml",
+      "backgroundAsset": null,
+      "backgroundSource": null,
+      "imageAssets": [
+        "image13.png"
+      ],
+      "textSamples": [
+        "元数据服务节点",
+        "MetaData Processor",
+        "数据存储节点",
+        "Backend Processor",
+        "MP_A",
+        "应用层"
+      ],
+      "textCount": 6,
+      "shapeCount": 12,
+      "pageType": "content_candidate"
+    },
+    {
+      "index": 7,
+      "name": "slide7.xml",
+      "svgFile": "slide_07.svg",
+      "flatSvgFile": "slide_07.svg",
+      "slidePath": "ppt/slides/slide7.xml",
+      "layoutPath": "ppt/slideLayouts/slideLayout6.xml",
+      "masterPath": "ppt/slideMasters/slideMaster1.xml",
+      "backgroundAsset": null,
+      "backgroundSource": null,
+      "imageAssets": [
+        "image13.png"
+      ],
+      "textSamples": [
+        "高性能",
+        "-",
+        "全国产平台性能优化",
+        "Storage Optimization",
+        "多页预读",
+        "全局对象优化"
+      ],
+      "textCount": 6,
+      "shapeCount": 45,
+      "pageType": "content_candidate"
+    },
+    {
+      "index": 8,
+      "name": "slide8.xml",
+      "svgFile": "slide_08.svg",
+      "flatSvgFile": "slide_08.svg",
+      "slidePath": "ppt/slides/slide8.xml",
+      "layoutPath": "ppt/slideLayouts/slideLayout8.xml",
+      "masterPath": "ppt/slideMasters/slideMaster1.xml",
+      "backgroundAsset": null,
+      "backgroundSource": null,
+      "imageAssets": [],
+      "textSamples": [],
+      "textCount": 0,
+      "shapeCount": 2,
+      "pageType": "ending_candidate"
+    }
+  ]
+}

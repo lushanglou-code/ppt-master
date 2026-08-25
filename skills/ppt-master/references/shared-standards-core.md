@@ -624,6 +624,12 @@ These forms are needed only when the stated PPT behavior matters:
 
 **Default — leading by role and density (may be overridden for user, template, typeface, legibility, or locked visual-style fit)**: For direct positioned `<tspan>` rows, start multiline titles around `1.2–1.3 × font-size`, dense / small body around `1.4–1.5 ×`, ordinary body around `1.5–1.6 ×`, and large / sparse / breathing body around `1.6–2.0 ×`. These are starting ranges, not checker quotas; display headlines may be tighter when the selected style calls for it. Author the spacing as positive relative `dy`, not CSS/SVG `line-height`, which has no registered DrawingML mapping.
 
+**Hard rule — multi-column and card text wrapping**: SVG has no automatic text reflow or wrapping (since `<foreignObject>` is forbidden). In multi-column, card, or grid layouts, all descriptive text and prose MUST be manually wrapped into multiple lines using discrete `<text x="..." y="...">` elements or positioned `<tspan>` rows. Keep single-line character lengths strictly within the visual card width:
+- **2-column cards** (width ~500–580px): max ~24–28 CJK characters (~50–60 Latin characters) per line.
+- **3-column cards** (width ~340–380px): max ~15–18 CJK characters (~30–35 Latin characters) per line.
+- **4-column cards / process steps** (width ~240–280px): max ~10–13 CJK characters (~20–25 Latin characters) per line.
+Single-line text exceeding these bounds overflows the container and root canvas, triggering text-extent validation errors.
+
 **Hard rule — supported shape conversion**: Every PPT editability claim in this specification refers to the project converter reading `svg_output/` and emitting native DrawingML. `svg_final/` is a self-contained visual preview that may be inserted into PowerPoint as an SVG picture. PowerPoint's manual Convert-to-Shape operation is unsupported; do not narrow the authoring contract to its undocumented SVG subset.
 
 ### 4.3 Element Grouping (Mandatory)

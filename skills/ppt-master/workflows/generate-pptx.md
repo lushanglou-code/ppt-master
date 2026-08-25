@@ -821,6 +821,8 @@ python3 ${SKILL_DIR}/scripts/finalize_svg.py <project_path>
 
 #### Step 7.3 — Export the Native PPTX
 
+> ⚠️ **Prerequisite**: Native export strictly requires a passing final quality check JSON report (`validation/svg_quality_report.json`). Ensure `python3 ${SKILL_DIR}/scripts/svg_quality_checker.py <project_path> --stage final --json` exited 0 before running the exporter.
+
 Choose exactly one notes mode:
 
 | Effective decision | Command |

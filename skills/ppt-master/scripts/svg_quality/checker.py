@@ -2843,7 +2843,6 @@ class SVGQualityChecker:
         ]
         require_bounds = (
             self.template_mode
-            or root.get('data-pptx-page-role') is not None
             or any(
                 root.get(attribute) is not None
                 for attribute in _PPTX_ROOT_STRUCTURE_ATTRS

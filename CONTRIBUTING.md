@@ -68,6 +68,7 @@ AI assistance is welcome — this project is itself AI-driven. But an AI-drafted
 - "Drive-by" cosmetic reformatting unrelated to a real fix
 - Pure translations or wording-only edits that were not requested or discussed first
 - Changing a foundational setting — the MIT license, or DrawingML component reuse / template-fill in place of AI-generated shapes. These are deliberate founding choices and won't change midway
+- Fixes whose only effect is in a renderer other than Microsoft PowerPoint — PPT Master targets PowerPoint and nothing else; Keynote, WPS, LibreOffice and Google Slides can open the output, but their rendering differences (ignored `wrap="none"`, their own script-spacing rules, remapped effects) are outside the contract. If the deck is correct in PowerPoint, it is correct. Such reports are closed as not planned, and PRs for them are closed unmerged even when the change looks harmless, because the affected code paths (width estimation, the quality checker, export) also drive PowerPoint output
 - Fixed numeric quotas to constrain generation (`max_cards` / `max_bullets` / `max_table_rows` and similar) — density is governed by narrative rhythm and one primary focus per page, not hard caps
 - Post-processing that is quality smoothing rather than compatibility — we fix things that are broken/unusable if not done (e.g. AI-image size/format/alpha); "nicer if done" polish (loudness normalization, kerning) stays out. If a model or service falls short, the fix is to switch it, not to make the project adapt to it
 - A new backend, path, or option that duplicates a capability the repo already provides — check current behavior first (e.g. OpenAI-compatible providers already run under `IMAGE_BACKEND=openai`)
@@ -80,7 +81,7 @@ If you're unsure, open an issue to ask — that's always welcome.
 1. **Fork** the repository and create a branch from `main`
 2. **One PR, one thing** — keep each PR focused on a single concern. If you notice unrelated improvements, open a separate PR
 3. **Write a useful PR description** — explain *what* changed and *why*, not just a diff summary. If your change fixes a bug, include reproduction steps
-4. **Test locally** before submitting — run the affected scripts and verify output
+4. **Test locally** before submitting — run the affected scripts on a real project and show the output. Unit tests are optional and live only under `skills/ppt-master/scripts/tests/` on the standard library `unittest` (see [`docs/rules/code-style.md`](docs/rules/code-style.md) §11); a green suite does not replace the real-project run
 5. **Don't overstate** — if your PR description claims tests or behavior changes, make sure the diff actually contains them
 
 ## Review Process
@@ -110,6 +111,7 @@ Open an issue on [GitHub Issues](https://github.com/hugohe3/ppt-master/issues) a
 - Steps to reproduce
 - Expected vs. actual behavior
 - Environment details (OS, Python version, AI editor used)
+- Confirmation that the problem shows in Microsoft PowerPoint — a deck that renders correctly there but differently in another app is not a bug for this project (see above)
 
 ## Code of Conduct
 

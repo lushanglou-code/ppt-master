@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="1280" height="720" viewBox="0 0 1280 720"
+  data-pptx-master="dameng_toc_master" data-pptx-master-name="Dameng TOC Master"
+  data-pptx-layout="toc" data-pptx-layout-name="Table of Contents">
+  <defs>
+    <linearGradient id="ggrad-red" x1="0.5" y1="1" x2="0.5" y2="0">
+      <stop offset="0" stop-color="#FF0000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#FF0000"/>
+    </linearGradient>
+    <linearGradient id="ggrad-blue" x1="0.5" y1="1" x2="0.5" y2="0">
+      <stop offset="0" stop-color="#265EFA" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0101D2"/>
+    </linearGradient>
+    <linearGradient id="ggrad-icon-circle" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#265EFA"/>
+      <stop offset="1" stop-color="#0000D2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 1. Master Layer: Background & Branding -->
+  <image id="toc-master-bg" x="0" y="0" width="1280" height="720"
+    href="../images/toc_bg.png" preserveAspectRatio="none"
+    data-pptx-layer="master" data-pptx-editable="false"/>
+  <image id="toc-master-logo" x="1039" y="49" width="220" height="35"
+    href="../images/brand_logo.png" preserveAspectRatio="none"
+    data-pptx-layer="master" data-pptx-editable="false"/>
+
+  <!-- Master Layer: Signature Red/Blue Accents for TOC Header -->
+  <rect id="toc-accent-red" x="56.14" y="48" width="11.67" height="42.88"
+    fill="url(#ggrad-red)" stroke="none"
+    data-pptx-layer="master" data-pptx-editable="false"/>
+  <rect id="toc-accent-blue" x="35.67" y="62" width="11.67" height="29.13"
+    fill="url(#ggrad-blue)" stroke="none"
+    data-pptx-layer="master" data-pptx-editable="false"/>
+
+  <text id="toc-master-title" x="82" y="86"
+    fill="#000000" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif"
+    font-size="44" font-weight="700"
+    data-pptx-layer="master" data-pptx-editable="false">目录</text>
+
+  <!-- Master Layer: Footer -->
+  <text id="toc-footer-slogan" x="45" y="672"
+    fill="#A6A6A6" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif"
+    font-size="16"
+    data-pptx-layer="master" data-pptx-editable="false">打造中国的世界级数据库品牌</text>
+  <text id="toc-footer-url" x="1107" y="672"
+    fill="#A6A6A6" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif"
+    font-size="16"
+    data-pptx-layer="master" data-pptx-editable="false">www.dameng.com</text>
+
+  <!-- 2. Layout Layer: Decorative Icon Badges with explicit IDs -->
+  <!-- Item 1 Icon Badge -->
+  <circle id="toc-icon-bg-1" cx="95" cy="220" r="28" fill="url(#ggrad-icon-circle)"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <path id="toc-icon-glyph-1" d="M 83 214 L 107 214 L 107 217 L 83 217 Z M 83 220 L 107 220 L 107 223 L 83 223 Z M 83 226 L 107 226 L 107 229 L 83 229 Z M 81 210 C 81 208 95 208 95 208 C 95 208 109 208 109 210 L 109 230 C 109 232 95 232 95 232 C 95 232 81 232 81 230 Z"
+    fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+
+  <!-- Item 2 Icon Badge -->
+  <circle id="toc-icon-bg-2" cx="95" cy="320" r="28" fill="url(#ggrad-icon-circle)"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="toc-icon-glyph-2" x="83" y="308" width="24" height="24" rx="4"
+    fill="none" stroke="#FFFFFF" stroke-width="2"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <text id="toc-icon-text-2" x="95" y="325" text-anchor="middle"
+    fill="#FFFFFF" font-family="Arial, sans-serif" font-size="12" font-weight="700"
+    data-pptx-layer="layout" data-pptx-editable="false">Ex</text>
+
+  <!-- Item 3 Icon Badge -->
+  <circle id="toc-icon-bg-3" cx="95" cy="420" r="28" fill="url(#ggrad-icon-circle)"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <ellipse id="toc-icon-glyph-3-head" cx="95" cy="410" rx="12" ry="4" fill="#FFFFFF"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <path id="toc-icon-glyph-3-body1" d="M 83 410 L 83 416 C 83 418.5 88.4 420 95 420 C 101.6 420 107 418.5 107 416 L 107 410"
+    fill="none" stroke="#FFFFFF" stroke-width="2"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <path id="toc-icon-glyph-3-body2" d="M 83 416 L 83 422 C 83 424.5 88.4 426 95 426 C 101.6 426 107 424.5 107 422 L 107 416"
+    fill="none" stroke="#FFFFFF" stroke-width="2"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <path id="toc-icon-glyph-3-body3" d="M 83 422 L 83 428 C 83 430.5 88.4 432 95 432 C 101.6 432 107 430.5 107 428 L 107 422"
+    fill="none" stroke="#FFFFFF" stroke-width="2"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+
+  <!-- Item 4 Icon Badge -->
+  <circle id="toc-icon-bg-4" cx="95" cy="520" r="28" fill="url(#ggrad-icon-circle)"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <circle id="toc-icon-glyph-4-ring" cx="95" cy="520" r="13" fill="none" stroke="#FFFFFF" stroke-width="2"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <text id="toc-icon-text-4" x="95" y="525" text-anchor="middle" fill="#FFFFFF"
+    font-family="'Microsoft YaHei', sans-serif" font-size="12" font-weight="700"
+    data-pptx-layer="layout" data-pptx-editable="false">企</text>
+
+  <!-- 3. Layout Layer: Slots for Each TOC Item -->
+  <g id="toc-item-1-slot" data-pptx-placeholder="body" data-pptx-idx="1" data-pptx-bounds="140 195 960 50">
+    <text id="toc-item-1-carrier" data-pptx-carrier="true"
+      x="140" y="228"
+      fill="#000000" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif"
+      font-size="26" font-weight="600">{{TOC_ITEM_1}}</text>
+  </g>
+  <g id="toc-item-2-slot" data-pptx-placeholder="body" data-pptx-idx="2" data-pptx-bounds="140 295 960 50">
+    <text id="toc-item-2-carrier" data-pptx-carrier="true"
+      x="140" y="328"
+      fill="#000000" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif"
+      font-size="26" font-weight="600">{{TOC_ITEM_2}}</text>
+  </g>
+  <g id="toc-item-3-slot" data-pptx-placeholder="body" data-pptx-idx="3" data-pptx-bounds="140 395 960 50">
+    <text id="toc-item-3-carrier" data-pptx-carrier="true"
+      x="140" y="428"
+      fill="#000000" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif"
+      font-size="26" font-weight="600">{{TOC_ITEM_3}}</text>
+  </g>
+  <g id="toc-item-4-slot" data-pptx-placeholder="body" data-pptx-idx="4" data-pptx-bounds="140 495 960 50">
+    <text id="toc-item-4-carrier" data-pptx-carrier="true"
+      x="140" y="528"
+      fill="#000000" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif"
+      font-size="26" font-weight="600">{{TOC_ITEM_4}}</text>
+  </g>
+</svg>

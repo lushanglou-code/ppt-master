@@ -157,6 +157,43 @@ Run Step 4's confirmation orchestration unchanged. In the UI branch read `confir
 
 ---
 
+## 8. Template-Driven Re-layout & Cross-Theme (Dark ↔ Light) Transformation
+
+When the user supplies a source PPTX and requests applying a specific template (e.g., enterprise brand deck like `dmdefault` or a custom workspace) and/or changing the visual mode (e.g., dark-themed deck to a light-themed official template, or vice versa):
+
+### 8.1 Why Simple "Change Master" Fails
+Standard PowerPoint master switching fails catastrophically across theme modes:
+1. **Text Contrast Inversion**: White or neon text hardcoded in dark decks becomes completely invisible on light backgrounds.
+2. **Obstructing Background Shapes**: Hardcoded dark rectangles/cards in the source obscure the target template's subtle background textures and branding.
+3. **Semantic Stylistic Mismatch**: Neon tech accents look unrefined on crisp corporate light templates.
+
+### 8.2 Systematic Contrast & Component Remapping
+1. **Hierarchical Text Remapping (Dark → Light)**:
+   - Slide Title: mapped to target template title color (`#000000` / `#0F172A`). When slide titles exceed 20 CJK characters, adjust font size from 40px to 32–34px to prevent horizontal slot overflow against standard 940px bounds.
+   - Section / Card Heading: `#0000D2` (brand primary) or `#1E293B`.
+   - Body Copy: `#334155` (high legibility slate).
+   - Secondary / Metadata: `#64748B`.
+2. **Container & Surface Modernization**:
+   - Dark semi-transparent surfaces convert to crisp white cards (`#FFFFFF`) with subtle slate borders (`#E2E8F0` / `#CBD5E1`) and brand-colored accent indicator strips (e.g., Dameng signature blue `#0000D2` and red `#EC1B34`).
+   - Cards and columns (width 200–350px) must strictly wrap body text with `<tspan x="..." dy="...">` every 16–22 CJK characters to satisfy the SVG quality checker without overflow.
+3. **Code Terminal & Technical Blocks**:
+   - Instead of large disruptive black terminals on white slides, format code inside light modern cards (`#F8FAFC`, border `#E2E8F0`) with syntax-highlighted keywords in deep brand blue and muted slate comments.
+4. **Complex Topology & Architecture Refactoring**:
+   - Complex topologies (e.g., 3-tier architectures, process flows, IPC communication) are redrawn as clean vector structures with layered container cards, explicit directional connectors, and structured pill tags.
+
+### 8.3 Enterprise Deck Template Contract Alignment
+1. **Cover & Ending Master Chrome**:
+   - Bind to template `01_cover.svg` and `05_ending.svg`.
+   - Prune non-standard external institutional labels unless explicitly requested by the user, preserving clean corporate standards.
+2. **TOC & Chapter Dividers**:
+   - 1:1 map section titles to template `02_toc.svg` and `03_chapter.svg`, preserving canonical numbering (`01`, `02`...) and English subtitles.
+3. **Open Content Viewport (`04_content.svg`)**:
+   - Standardize slide header logo, accent bars, and footer slogans/URLs into the master layer, while allocating `[70 115 1140 535]` as the open canvas for restructured cards, tables, and flows.
+4. **Speaker Notes Preservation**:
+   - Extract source slide speaker notes into `notes/slide_*.md` and `notes/total.md`. Always compile with `svg_to_pptx.py --quick-generate --with-notes` to guarantee 100% preservation of presenter commentary.
+
+---
+
 ## Current Boundary
 
-Supported: re-layout with verbatim text; source palette/fonts as the preselected recommendation with user-approved overrides; strict 1:1 pages; charts/tables regenerated from extracted data; re-laid-out source pictures. Not in v1: re-pagination; batch / multi-deck beautification. Out of scope: carrying charts / tables / images over byte-for-byte (the user copies originals manually); silent visual-style or identity deviation.
+Supported: re-layout with verbatim text; source palette/fonts as the preselected recommendation with user-approved overrides; cross-theme template re-layout (dark ↔ light) with brand deck contract alignment; strict 1:1 pages; charts/tables regenerated from extracted data; re-laid-out source pictures; lossless speaker notes pass-through. Not in v1: re-pagination; batch / multi-deck beautification. Out of scope: carrying charts / tables / images over byte-for-byte (the user copies originals manually); silent visual-style or identity deviation.

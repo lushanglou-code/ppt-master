@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="1280" height="720" viewBox="0 0 1280 720"
+  data-pptx-master="dameng_cover_master" data-pptx-master-name="Dameng Cover Master"
+  data-pptx-layout="cover" data-pptx-layout-name="Cover Slide">
+  <defs>
+    <linearGradient id="ggrad-speaker" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0000D2"/>
+      <stop offset="1" stop-color="#265EFA"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 1. Master Layer: Fixed Background & Branding -->
+  <image id="cover-master-bg" x="0" y="0" width="1280" height="720"
+    href="../images/cover_bg.png" preserveAspectRatio="none"
+    data-pptx-layer="master" data-pptx-editable="false"/>
+  <image id="cover-master-logo" x="50" y="42" width="272" height="43"
+    href="../images/brand_logo.png" preserveAspectRatio="none"
+    data-pptx-layer="master" data-pptx-editable="false"/>
+
+  <text id="cover-slogan" x="50" y="365"
+    fill="#0000D2" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif"
+    font-size="32" font-weight="700"
+    data-pptx-layer="master" data-pptx-editable="false">打造中国的世界级数据库品牌</text>
+
+  <text id="cover-company" x="50" y="624"
+    fill="#808080" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif"
+    font-size="21"
+    data-pptx-layer="master" data-pptx-editable="false">武汉达梦数据库股份有限公司</text>
+
+  <line id="cover-footer-divider" x1="358" y1="608" x2="358" y2="631"
+    stroke="#265EFA" stroke-width="1.5"
+    data-pptx-layer="master" data-pptx-editable="false"/>
+
+  <!-- 2. Layout Layer: Shapes (Must precede all placeholders per template paint order) -->
+  <rect id="cover-speaker-bg" x="50" y="458" width="200" height="42" rx="21"
+    fill="url(#ggrad-speaker)"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+
+  <!-- 3. Layout Layer: Placeholders / Content Slots -->
+  <g id="cover-title-slot" data-pptx-placeholder="title" data-pptx-bounds="50 184 1100 140">
+    <text id="cover-title-carrier" data-pptx-carrier="true"
+      x="50" y="270"
+      fill="#020202" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif"
+      font-size="52" font-weight="700">{{TITLE}}</text>
+  </g>
+
+  <g id="cover-speaker-slot" data-pptx-placeholder="body" data-pptx-idx="1" data-pptx-bounds="50 458 200 42">
+    <text id="cover-speaker-carrier" data-pptx-carrier="true"
+      x="150" y="486" text-anchor="middle"
+      fill="#FFFFFF" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif"
+      font-size="18" font-weight="600">演讲人：{{SPEAKER}}</text>
+  </g>
+
+  <g id="cover-date-slot" data-pptx-placeholder="date" data-pptx-idx="2" data-pptx-bounds="373 600 200 40">
+    <text id="cover-date-carrier" data-pptx-carrier="true"
+      x="380" y="624"
+      fill="#808080" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif"
+      font-size="21">{{DATE}}</text>
+  </g>
+</svg>

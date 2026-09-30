@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="1280" height="720" viewBox="0 0 1280 720"
+  data-pptx-master="dameng_chapter_master" data-pptx-master-name="Dameng Chapter Master"
+  data-pptx-layout="chapter" data-pptx-layout-name="Chapter Divider">
+  <defs>
+    <linearGradient id="ggrad-red" x1="0.5" y1="1" x2="0.5" y2="0">
+      <stop offset="0" stop-color="#FF0000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#FF0000"/>
+    </linearGradient>
+    <linearGradient id="ggrad-blue" x1="0.5" y1="1" x2="0.5" y2="0">
+      <stop offset="0" stop-color="#265EFA" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0101D2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Master Layer: Background & Accent Strip -->
+  <image id="chapter-master-bg" x="0" y="0" width="1280" height="720"
+    href="../images/content_bg.png" preserveAspectRatio="none"
+    data-pptx-layer="master" data-pptx-editable="false"/>
+  <image id="chapter-master-accent" x="0" y="181" width="1280" height="358"
+    href="../images/chapter_accent.png" preserveAspectRatio="none"
+    data-pptx-layer="master" data-pptx-editable="false"/>
+
+  <!-- Master Layer: Signature Red/Blue Accents (Root-level atomic shapes) -->
+  <rect id="chapter-bar-red" x="93.84" y="338.56" width="11.67" height="42.88"
+    fill="url(#ggrad-red)" stroke="none"
+    data-pptx-layer="master" data-pptx-editable="false"/>
+  <rect id="chapter-bar-blue" x="73.38" y="352.31" width="11.67" height="29.13"
+    fill="url(#ggrad-blue)" stroke="none"
+    data-pptx-layer="master" data-pptx-editable="false"/>
+
+  <!-- Master Layer: Footer -->
+  <text id="chapter-footer-slogan" x="45" y="672"
+    fill="#A6A6A6" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif"
+    font-size="16"
+    data-pptx-layer="master" data-pptx-editable="false">打造中国的世界级数据库品牌</text>
+  <text id="chapter-footer-url" x="1107" y="672"
+    fill="#A6A6A6" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif"
+    font-size="16"
+    data-pptx-layer="master" data-pptx-editable="false">www.dameng.com</text>
+
+  <!-- Layout Layer: Chapter Number and Title Slots -->
+  <g id="chapter-num-slot" data-pptx-placeholder="title" data-pptx-bounds="125 285 170 150">
+    <text id="chapter-num-carrier" data-pptx-carrier="true"
+      x="135" y="391"
+      fill="#0000D2" font-family="Arial, 'Microsoft YaHei', sans-serif"
+      font-size="106" font-weight="700">{{CHAPTER_NUM}}</text>
+  </g>
+
+  <g id="chapter-title-slot" data-pptx-placeholder="body" data-pptx-bounds="313 285 850 150">
+    <text id="chapter-title-carrier" data-pptx-carrier="true"
+      x="323" y="382"
+      fill="#000000" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif"
+      font-size="80" font-weight="700">{{CHAPTER_TITLE}}</text>
+  </g>
+</svg>

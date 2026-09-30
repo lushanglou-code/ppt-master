@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="1280" height="720" viewBox="0 0 1280 720"
+  data-pptx-master="dameng_ending_master" data-pptx-master-name="Dameng Ending Master"
+  data-pptx-layout="ending" data-pptx-layout-name="Ending Slide">
+
+  <!-- Master Layer: Background & Logo -->
+  <image id="ending-master-bg" x="0" y="0" width="1280" height="720"
+    href="../images/cover_bg.png" preserveAspectRatio="none"
+    data-pptx-layer="master" data-pptx-editable="false"/>
+  <image id="ending-master-logo" x="50" y="42" width="272" height="43"
+    href="../images/brand_logo.png" preserveAspectRatio="none"
+    data-pptx-layer="master" data-pptx-editable="false"/>
+
+  <!-- Master Layer: Headline & Slogan -->
+  <text id="ending-headline" x="60" y="292"
+    fill="#020202" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif"
+    font-size="96" font-weight="700"
+    data-pptx-layer="master" data-pptx-editable="false">感谢聆听</text>
+
+  <text id="ending-slogan" x="68" y="381"
+    fill="#0000D2" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif"
+    font-size="32" font-weight="700"
+    data-pptx-layer="master" data-pptx-editable="false">打造中国的世界级数据库品牌</text>
+
+  <!-- Master Layer: Official Contact & QR Code (Root-level atomic shapes) -->
+  <image id="ending-qrcode" x="58" y="530" width="149" height="149"
+    href="../images/ending_qrcode.jpeg" preserveAspectRatio="none"
+    data-pptx-layer="master" data-pptx-editable="false"/>
+
+  <text id="ending-contact-company" x="236" y="555" fill="#808080"
+    font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="21"
+    data-pptx-layer="master" data-pptx-editable="false">武汉达梦数据库股份有限公司</text>
+  <text id="ending-contact-url" x="236" y="607" fill="#808080"
+    font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="21"
+    data-pptx-layer="master" data-pptx-editable="false">www.dameng.com</text>
+  <text id="ending-contact-phone" x="236" y="659" fill="#808080"
+    font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="21"
+    data-pptx-layer="master" data-pptx-editable="false">400-991-6599</text>
+</svg>

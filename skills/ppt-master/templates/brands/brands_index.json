@@ -82,5 +82,9 @@
   "中汽研": {
     "summary": "CATARC brand identity for product certification, evaluation reports, automotive technology promotion, and business visits",
     "primary_color": "#004098"
+  },
+  "dameng": {
+    "summary": "达梦数据库官方品牌预设，提供权威科技深蓝、达梦正红与科技亮蓝的官方品牌视觉与 Logo 资产",
+    "primary_color": "#0000D2"
   }
 }

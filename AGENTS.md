@@ -38,6 +38,7 @@ PPT Master turns source material into natively editable DrawingML PPTX. Generate
 - Always-on SVG constraints and shared visual-quality defaults live in [`skills/ppt-master/references/shared-standards-core.md`](skills/ppt-master/references/shared-standards-core.md). Default and Quick Generate load [`svg-effects.md`](skills/ppt-master/references/svg-effects.md) on the executor-base routing trigger (the everyday effects live in the executor core); other routes load it, [`native-data-interface.md`](skills/ppt-master/references/native-data-interface.md), and [`pptx-structure-interface.md`](skills/ppt-master/references/pptx-structure-interface.md) only when their documented execution triggers apply.
 - Canvas choices live in [`skills/ppt-master/references/canvas-formats.md`](skills/ppt-master/references/canvas-formats.md).
 - Icon library details live in [`skills/ppt-master/templates/icons/README.md`](skills/ppt-master/templates/icons/README.md).
+- **Default narration voices**: for presentation narration and video generation, the default female voice is `en-US-AvaMultilingualNeural` (Ava), and the default male voice is `en-US-BrianMultilingualNeural` (Brian).
 
 ## Required Conventions
 

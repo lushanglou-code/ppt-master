@@ -85,7 +85,7 @@ OOXML，而不是嵌入视频。对象动画包括进入、强调、动作路径
 |---|---|---|
 | `on-click` | 每次单击显示一个内容组 | 由演讲者控制节奏的现场演示 |
 | `with-previous` | 页面出现时所有内容组同时入场 | 一次协调完成的整体入场 |
-| `after-previous`（默认） | 各内容组无需点击，按顺序自动出现 | 展厅循环、录屏走查和旁白 deck |
+| `after-previous`（默认） | 各内容组无需点击，按顺序自动出现 | 展台循环播放、逐步讲解和旁白 deck |
 
 `--recorded-narration` 不支持 `on-click`；带旁白或用于视频导出的 deck 应使用 `after-previous` 或 `with-previous`。
 
@@ -216,7 +216,7 @@ shape target 锚点，不等同于 Animation Pane 中的一行。兼容的单效
 | `effect` | 选择一个显式效果；旧单效果形式可用 `none` 让对象保持静态 |
 | `trigger` | 覆盖本行的 Start 模式；省略时继承页面动画 trigger |
 | `order` | 设置普通动画行的整页顺序且不改变图层；trigger-shape 行保留在独立交互序列中 |
-| `delay` | 给本行解析后的 Start 行为增加等待时间 |
+| `delay` | 设置本行相对拍起点或形状触发的延迟；默认值与 `animation.stagger` 见[计时字段说明](../../skills/ppt-master/scripts/docs/pptx-animations.md#8-sidecar-field-reference) |
 | `duration` | 覆盖本行的动画排程时长 |
 | `effect_options` | 设置效果适用的 `direction`、`amount`、`color`、`font_name`、`relative` 或 `size` |
 | `trigger_shape` | 单击另一个顶层内容组时触发本行（PowerPoint“单击下列对象时”） |

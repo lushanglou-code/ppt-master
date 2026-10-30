@@ -13,9 +13,13 @@
 
 English | [中文](./README_CN.md)
 
+> 💼 **I'm open to new opportunities.** Investment background (CPA · CPV · Consulting Engineer), also building AI tools and open source. Happy to talk about any opportunity: [heyug3@gmail.com](mailto:heyug3@gmail.com) · [hehugo.com](https://www.hehugo.com/).
+
+> 🆕 **I built a construction project economic evaluation site: [cs.hehugo.com](https://cs.hehugo.com/)** (in Chinese) — the wind, solar and storage templates are now open to everyone; just register and use them (a comparable module in one commercial package sells for ¥100,000).
+
 ## ❤️ Sponsors
 
-This project is kept free and open source with the support of <a href="https://www.kimi.com/code/?aff=ppt-master">Kimi</a>, <a href="https://www.packyapi.ai/register?aff=ppt-master">PackyCode</a>, <a href="https://apikey.fan/register?aff=PPT-MASTER">APIKEY.FAN</a>, <a href="https://runapi.host/register?aff=WMLJ">RunAPI</a>, <a href="https://go.apimart.ai/gh-ppt-master1">APIMart</a> and other sponsors.
+This project is kept free and open source with the support of <a href="https://www.kimi.com/code/?aff=ppt-master">Kimi</a>, <a href="https://www.packyapi.ai/register?aff=ppt-master">PackyCode</a>, <a href="https://apikey.fan/register?aff=PPT-MASTER">APIKEY.FAN</a>, <a href="https://runapi.host/register?aff=WMLJ">RunAPI</a> and other sponsors.
 
 > **[Want to appear here?](SPONSORING.md)**
 
@@ -44,10 +48,6 @@ Thanks to [Kimi](https://www.kimi.com/code/?aff=ppt-master) for sponsoring this 
   <tr>
     <td width="180"><a href="https://runapi.host/register?aff=WMLJ"><img src="docs/assets/sponsors/runapi.png" alt="RunAPI" width="150"></a></td>
     <td>Thanks to RunAPI for sponsoring this project! RunAPI is an efficient and stable API platform — a single API Key gives you access to 150+ leading models, including OpenAI, Claude, Gemini, DeepSeek, and Grok, at prices as low as <strong>10% of official rates</strong>, with exceptional stability and seamless compatibility with tools like Claude Code. RunAPI offers an exclusive perk for PPT Master users: register and contact an administrator via <a href="https://runapi.host/register?aff=WMLJ">our dedicated link</a> to claim <strong>¥7 in free credit</strong>.</td>
-  </tr>
-  <tr>
-    <td width="180"><a href="https://go.apimart.ai/gh-ppt-master1"><img src="docs/assets/sponsors/apimart.png" alt="APIMart" width="150"></a></td>
-    <td>Thanks to APIMart for sponsoring this project! APIMart is a low-cost API platform for AI image & video generation — GPT-Image-2 from <strong>$0.006/image</strong>, 160+ images per dollar. One async API covers both image and video: submit a task, get an ID, fetch results via polling or callback. Batch tens of thousands of images without timeouts, switch models without changing code. Pay-as-you-go with no monthly fee — sign up <a href="https://go.apimart.ai/gh-ppt-master1">here</a> to get started.</td>
   </tr>
 </table>
 
@@ -99,14 +99,14 @@ Generating a new deck from source documents is the main pipeline, but not the on
 On top of that native depth, this form comes with three promises:
 
 - **Transparent, predictable cost** — free and open source; the only cost is your AI model usage, with no PPT subscription on top
-- **Data stays local** — apart from AI model communication, the entire pipeline runs on your machine
+- **Data stays local** — apart from AI model calls and the search, image, and speech services you choose to enable, the entire pipeline runs on your machine
 - **No platform lock-in** — any agent-capable AI IDE can drive it; Claude, GPT, Gemini, Kimi, and other models all work
 
 Why you'd choose it, and where it isn't the right fit → [Why PPT Master](./docs/why-ppt-master.md); the long-term capability boundaries behind these promises → [Project Positioning](./docs/project-positioning.md).
 
 > [!IMPORTANT]
 > ### This is a tool, not a wishing well
-> `harness + model = agent` — PPT Master only owns the workflow; the model sets the ceiling. Recommended: **Kimi K3 (or Claude) with a large context window (~1M tokens) + AI image generation (`gpt-image-2` or Google `gemini-3.1-flash-image`)**; other models can run the pipeline, with a quality gap.
+> `harness + model = agent` — PPT Master only owns the workflow; the model sets the ceiling. Recommended: **Kimi K3 (or Claude) with a large context window (~1M tokens) + AI image generation (`gpt-image-2.5-sunburst` or Google `gemini-nano-banana-2.1`)**; other models can run the pipeline, with a quality gap.
 >
 > And don't expect a finished, perfect deck in one shot. The tool's value is taking most of the tedious work off your plate; the polishing that's left is yours — a natively editable deck exists precisely so you can keep working on it, not a flat image you can't touch. The cheaper the model, the more there is to do; if results disappoint, upgrade the model first, then check your usage against [Getting Started](./docs/getting-started.md) and the [example projects](https://hugohe3.github.io/ppt-master-examples/).
 
@@ -165,7 +165,7 @@ Knowing how to use Python and AI agents will matter more and more, and this proj
 
 ### 1. Prerequisites
 
-**All you need to install is [Python](https://www.python.org/downloads/) 3.10+.** Everything else comes with one line — `pip install -r requirements.txt` — after you download the project in Step 3.
+**All you need to install is [Python](https://www.python.org/downloads/) 3.10–3.14.** Everything else comes with one line — `pip install -r requirements.txt` — after you download the project in Step 3.
 
 <details>
 <summary><strong>Windows</strong> — see the dedicated <a href="./docs/windows-installation.md">step-by-step guide</a> ⚠️</summary>
@@ -217,7 +217,7 @@ Never used one of these? Don't worry — in this project they play exactly one r
 | **IDE plugin / extension** | [Claude Code](https://claude.ai/code) (VS Code / JetBrains extension), [GitHub Copilot](https://github.com/features/copilot), [Cline](https://cline.bot/), etc. | Installed inside hosts like VS Code or JetBrains |
 | **CLI agent** | [Claude Code](https://claude.ai/code) CLI, [Codex CLI](https://github.com/openai/codex), Gemini CLI, etc. | Runs in the terminal; suits scripting, remote, or server use |
 
-> **Model recommendation**: for the best results, use **[Kimi K3](https://www.kimi.com/code/?aff=ppt-master)** (or Claude) to drive the pipeline, paired with AI image generation — **`gpt-image-2`** (OpenAI) or **`gemini-3.1-flash-image`** (Google). Kimi Code, the project sponsor, is a great pick for pay-as-you-go access.
+> **Model recommendation**: for the best results, use **[Kimi K3](https://www.kimi.com/code/?aff=ppt-master)** (or Claude) to drive the pipeline, paired with AI image generation — **`gpt-image-2.5-sunburst`** (OpenAI) or **`gemini-nano-banana-2.1`** (Google). Kimi Code, the project sponsor, is a great pick for pay-as-you-go access.
 
 **🔑 Want to use Claude / GPT / Gemini but don't have access yet?** Project sponsors **[PackyCode](https://www.packyapi.ai/register?aff=ppt-master)**, **[APIKEY.FAN](https://apikey.fan/register?aff=PPT-MASTER)** and **[RunAPI](https://runapi.host/register?aff=WMLJ)** offer pay-as-you-go access to Claude, GPT, Gemini and more — no subscription required, with exclusive discounts for our users (details at the top of this page).
 
@@ -318,7 +318,7 @@ Whatever you state explicitly is followed; whatever you leave unspecified the ag
 
 Two paths for non-user images, mixable per image in the same deck:
 
-**A) AI generation** — use the agent host's native image tool when available, or `image_gen.py` with `IMAGE_BACKEND` plus the provider's `*_API_KEY`. Host-native generation needs no separate provider image API key; ask the agent to use its own image tool. Run `python3 skills/ppt-master/scripts/image_gen.py --list-backends` for the configured-provider path. `gpt-image-2` is currently the best default.
+**A) AI generation** — use the agent host's native image tool when available, or `image_gen.py` with `IMAGE_BACKEND` plus the provider's `*_API_KEY`. Host-native generation needs no separate provider image API key; ask the agent to use its own image tool. Run `python3 skills/ppt-master/scripts/image_gen.py --list-backends` for the configured-provider path. `gpt-image-2.5-sunburst` is the current OpenAI default.
 
 **B) Web image search** — `image_search.py`. **Zero-config works**; configure `PEXELS_API_KEY` / `PIXABAY_API_KEY` (both free) for consistently higher-quality results:
 
@@ -413,8 +413,6 @@ PPT Master is currently built and maintained primarily by me. Every new template
 <a href="https://apikey.fan/register?aff=PPT-MASTER"><img src="docs/assets/sponsors/apikey-fan.png" alt="APIKEY.FAN" height="40" /></a>
 &nbsp;
 <a href="https://runapi.host/register?aff=WMLJ"><img src="docs/assets/sponsors/runapi.png" alt="RunAPI" height="40" /></a>
-&nbsp;
-<a href="https://go.apimart.ai/gh-ppt-master1"><img src="docs/assets/sponsors/apimart.png" alt="APIMart" height="40" /></a>
 &nbsp;
 <a href="https://m.do.co/c/547f129aabe1"><img src="https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/PoweredByDO/DO_Powered_by_Badge_blue.svg" alt="Powered by DigitalOcean" height="40" /></a>
 

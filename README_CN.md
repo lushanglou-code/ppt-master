@@ -13,9 +13,13 @@
 
 [English](./README.md) | 中文
 
+> 💼 **我正在寻找新的发展机会。** 投融资背景（CPA · CPV · 咨询工程师），也做 AI 工具与开源产品，各类机会都欢迎交流：[heyug3@gmail.com](mailto:heyug3@gmail.com)，更多见 [hehugo.com](https://www.hehugo.com/)。
+
+> 🆕 **我做了一个建设项目经济评价网站：[cs.hehugo.com](https://cs.hehugo.com/)**——风光储模板现已向所有用户开放，注册即可使用（某商业软件同类模块售价 10 万元）。
+
 ## ❤️ 赞助
 
-本项目由 <a href="https://www.kimi.com/code/?aff=ppt-master">Kimi</a>、<a href="https://www.packyapi.ai/register?aff=ppt-master">PackyCode</a>、<a href="https://apikey.fan/register?aff=PPT-MASTER">APIKEY.FAN</a>、<a href="https://runapi.host/register?aff=WMLJ">RunAPI</a>、<a href="https://go.apimart.ai/gh-ppt-master1">APIMart</a> 等赞助方支持，得以持续免费开源。
+本项目由 <a href="https://www.kimi.com/code/?aff=ppt-master">Kimi</a>、<a href="https://www.packyapi.ai/register?aff=ppt-master">PackyCode</a>、<a href="https://apikey.fan/register?aff=PPT-MASTER">APIKEY.FAN</a>、<a href="https://runapi.host/register?aff=WMLJ">RunAPI</a> 等赞助方支持，得以持续免费开源。
 
 > **[想出现在这里？](SPONSORING_CN.md)**
 
@@ -44,10 +48,6 @@
   <tr>
     <td width="180"><a href="https://runapi.host/register?aff=WMLJ"><img src="docs/assets/sponsors/runapi.png" alt="RunAPI" width="150"></a></td>
     <td>感谢 RunAPI 赞助了本项目！RunAPI 是一个高效稳定的 API 平台，一个 API Key 即可访问 OpenAI、Claude、Gemini、DeepSeek、Grok 等 150+ 主流模型，价格低至官方原价的 <strong>1 折</strong>，极其稳定，可无缝兼容 Claude Code 等工具。RunAPI 为 PPT Master 用户提供专属福利：通过<a href="https://runapi.host/register?aff=WMLJ">本项目专属链接</a>注册并联系管理员，即可领取 <strong>￥7 的免费额度</strong>。</td>
-  </tr>
-  <tr>
-    <td width="180"><a href="https://go.apimart.ai/gh-ppt-master1"><img src="docs/assets/sponsors/apimart.png" alt="APIMart" width="150"></a></td>
-    <td>感谢 APIMart 赞助了本项目！APIMart 是专注 AI 图片/视频生成的低价 API 平台，GPT-Image-2 低至 <strong>$0.006/张</strong>，1 美元可出图 160+ 张。图片、视频一套异步 API 通吃，提交任务拿 ID、回调取结果，跑批万张不超时、换模型不改代码。按量付费、无月费，通过<a href="https://go.apimart.ai/gh-ppt-master1">此注册链接</a>注册即可开用。</td>
   </tr>
 </table>
 
@@ -99,14 +99,14 @@
 在这份原生深度之上，这个形态还带来三个承诺：
 
 - **成本透明可控** — 工具免费开源，唯一成本是你自己的 AI 模型用量，不在此之外增加任何订阅费用
-- **数据不出本地** — 除与 AI 模型的对话外，全流程在你的电脑上完成
+- **数据不出本地** — 除与 AI 模型的对话及你主动启用的搜索、生图、语音服务外，全流程在你的电脑上完成
 - **不锁定平台** — 任何具备 agent 能力的 AI IDE 均可驱动；Claude、GPT、Gemini、Kimi 等模型均可使用
 
 为什么选它、以及它不适合的场景 → [为什么选 PPT Master](./docs/zh/why-ppt-master.md)；这些承诺背后的长期能力边界 → [项目定位与能力边界](./docs/zh/project-positioning.md)。
 
 > [!IMPORTANT]
 > ### 这是一个工具，不是一个许愿池
-> `harness + model = agent`——PPT Master 只负责工作流，产出上限由模型决定。推荐 **Kimi K3（或 Claude）大上下文窗口（~100 万 token）+ AI 生图（`gpt-image-2` 或 Google `gemini-3.1-flash-image`）**；其他模型能跑通流程，但有质量差距。
+> `harness + model = agent`——PPT Master 只负责工作流，产出上限由模型决定。推荐 **Kimi K3（或 Claude）大上下文窗口（~100 万 token）+ AI 生图（`gpt-image-2.5-sunburst` 或 Google `gemini-nano-banana-2.1`）**；其他模型能跑通流程，但有质量差距。
 >
 > 也别指望一把就拿到完美成品。它的价值是帮你把大部分枯燥的活儿干掉，剩下的打磨交给你——做原生可编辑的 PPT，本就是为了让你接着改，而不是甩给你一张改不动的图。模型越便宜，要补的人工就越多；效果不理想，先升级模型，再对照[快速入门](./docs/zh/getting-started.md)和[示例工程](https://hugohe3.github.io/ppt-master-examples/)检查用法。
 
@@ -165,7 +165,7 @@
 
 ### 1. 前置条件
 
-**只需安装 [Python](https://www.python.org/downloads/) 3.10+。** 其余依赖在第 3 步下载好项目后，用一行 `pip install -r requirements.txt` 装齐。
+**只需安装 [Python](https://www.python.org/downloads/) 3.10–3.14。** 其余依赖在第 3 步下载好项目后，用一行 `pip install -r requirements.txt` 装齐。
 
 <details>
 <summary><strong>Windows</strong> — 请看专门的<a href="./docs/zh/windows-installation.md">手把手安装指南</a> ⚠️</summary>
@@ -217,7 +217,7 @@ PPT Master 在**任何具备 agent 能力**（可读写文件、执行命令、�
 | **IDE 插件 / 扩展** | [Claude Code](https://claude.ai/code)（VS Code / JetBrains 扩展）、[GitHub Copilot](https://github.com/features/copilot)、[Cline](https://cline.bot/)、通义灵码 等 | 装在 VS Code / JetBrains 等宿主里使用 |
 | **CLI agent** | [Claude Code](https://claude.ai/code) CLI、[Codex CLI](https://github.com/openai/codex)、Gemini CLI 等 | 终端里运行，适合脚本化 / 远程 / 服务器场景 |
 
-> **模型推荐**：追求最佳效果，语言模型选 **[Kimi K3](https://www.kimi.com/code/?aff=ppt-master)**（或 Claude）驱动流程，搭配 AI 生图 —— **`gpt-image-2`**（OpenAI）或 **`gemini-3.1-flash-image`**（Google）。本项目赞助商 Kimi Code 支持按量调用，很适合上手。
+> **模型推荐**：追求最佳效果，语言模型选 **[Kimi K3](https://www.kimi.com/code/?aff=ppt-master)**（或 Claude）驱动流程，搭配 AI 生图 —— **`gpt-image-2.5-sunburst`**（OpenAI）或 **`gemini-nano-banana-2.1`**（Google）。本项目赞助商 Kimi Code 支持按量调用，很适合上手。
 
 **🔑 想用 Claude / GPT / Gemini 但还没有渠道？** 本项目赞助商 **[PackyCode](https://www.packyapi.ai/register?aff=ppt-master)**、**[APIKEY.FAN](https://apikey.fan/register?aff=PPT-MASTER)** 与 **[RunAPI](https://runapi.host/register?aff=WMLJ)** 均支持按量调用 Claude、GPT、Gemini 等主流模型，无需订阅、支持国内支付，并为本项目用户提供专属优惠（详情见页首）。
 
@@ -323,7 +323,7 @@ AI 全程处理——内容分析、视觉设计、SVG 生成、PPTX 导出。
 
 非用户自带图片有两条路径，可在同一份 deck 里按图混用：
 
-**A) AI 生图** — Agent host 提供原生生图工具时可直接使用；也可通过 `image_gen.py` 配置 `IMAGE_BACKEND` 和供应商 `*_API_KEY`。host-native 生图不需要另配供应商生图 API Key，直接要求 Agent 使用自身生图工具即可。`python3 skills/ppt-master/scripts/image_gen.py --list-backends` 查看供应商后端清单。`gpt-image-2` 目前综合质量最佳。
+**A) AI 生图** — Agent host 提供原生生图工具时可直接使用；也可通过 `image_gen.py` 配置 `IMAGE_BACKEND` 和供应商 `*_API_KEY`。host-native 生图不需要另配供应商生图 API Key，直接要求 Agent 使用自身生图工具即可。`python3 skills/ppt-master/scripts/image_gen.py --list-backends` 查看供应商后端清单。OpenAI 后端当前默认 `gpt-image-2.5-sunburst`。
 
 **B) 网络图片搜索** — `image_search.py`。**零配置**可用；建议配置 `PEXELS_API_KEY` / `PIXABAY_API_KEY`（都免费申请）以获得稳定的高质量结果：
 
@@ -366,7 +366,7 @@ PPT Master 会优先读取当前进程环境变量，然后按顺序读取第一
 
 ## 贡献
 
-详见 [CONTRIBUTING.md](./CONTRIBUTING.md)。
+详见 [CONTRIBUTING.md](./CONTRIBUTING.md)（英文）。
 
 ## 开源协议
 
@@ -418,8 +418,6 @@ PPT Master 目前主要由我开发维护。每个新模板、Bug 修复、文�
 <a href="https://apikey.fan/register?aff=PPT-MASTER"><img src="docs/assets/sponsors/apikey-fan.png" alt="APIKEY.FAN" height="40" /></a>
 &nbsp;
 <a href="https://runapi.host/register?aff=WMLJ"><img src="docs/assets/sponsors/runapi.png" alt="RunAPI" height="40" /></a>
-&nbsp;
-<a href="https://go.apimart.ai/gh-ppt-master1"><img src="docs/assets/sponsors/apimart.png" alt="APIMart" height="40" /></a>
 &nbsp;
 <a href="https://m.do.co/c/547f129aabe1"><img src="https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/PoweredByDO/DO_Powered_by_Badge_blue.svg" alt="Powered by DigitalOcean" height="40" /></a>
 
